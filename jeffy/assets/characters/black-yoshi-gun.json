@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-71,
+				180
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-73,
+				167
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-45,
+				183
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-81,
+				219
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-78,
+				180
+			],
+			"anim": "CockGun",
+			"fps": 24,
+			"name": "load",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				191
+			],
+			"anim": "GunShot",
+			"fps": 24,
+			"name": "shoot",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				190
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BlackyoshigunSprites",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "by",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		40,
+		40
+	],
+	"camera_position": [
+		-20,
+		-120
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

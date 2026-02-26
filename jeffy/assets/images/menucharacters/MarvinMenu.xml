@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="marvinmenu.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="100" y="100" width="276" height="769"/>
+	<SubTexture name="idle0001" x="100" y="100" width="276" height="769"/>
+	<SubTexture name="idle0002" x="413" y="100" width="271" height="769" frameX="0" frameY="0" frameWidth="276" frameHeight="769"/>
+	<SubTexture name="idle0003" x="413" y="100" width="271" height="769" frameX="0" frameY="0" frameWidth="276" frameHeight="769"/>
+	<SubTexture name="idle0004" x="721" y="100" width="272" height="765" frameX="0" frameY="-4" frameWidth="276" frameHeight="769"/>
+	<SubTexture name="idle0005" x="721" y="100" width="272" height="765" frameX="0" frameY="-4" frameWidth="276" frameHeight="769"/>
+</TextureAtlas>

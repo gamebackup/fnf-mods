@@ -1,0 +1,10 @@
+{
+	"idle_anim": "DJ Idle",
+	"confirm_anim": "DJ Idle",
+	"position": [
+		124,
+		139
+	],
+	"scale": 0.45,
+	"image": "DJ"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rose.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idlel0000" x="100" y="100" width="1257" height="664" frameX="0" frameY="-5" frameWidth="1257" frameHeight="669"/>
+	<SubTexture name="idlel0001" x="100" y="100" width="1257" height="664" frameX="0" frameY="-5" frameWidth="1257" frameHeight="669"/>
+	<SubTexture name="idlel0002" x="1394" y="100" width="1257" height="669"/>
+	<SubTexture name="idlel0003" x="1394" y="100" width="1257" height="669"/>
+	<SubTexture name="idlel0004" x="2688" y="100" width="1257" height="669"/>
+	<SubTexture name="idlel0005" x="2688" y="100" width="1257" height="669"/>
+	<SubTexture name="idlel0006" x="100" y="806" width="1257" height="669"/>
+	<SubTexture name="idlel0007" x="100" y="806" width="1257" height="669"/>
+	<SubTexture name="idlel0008" x="100" y="806" width="1257" height="669"/>
+	<SubTexture name="idlel0009" x="100" y="806" width="1257" height="669"/>
+	<SubTexture name="idlel0010" x="100" y="806" width="1257" height="669"/>
+	<SubTexture name="idler0000" x="1394" y="806" width="1257" height="665" frameX="0" frameY="-8" frameWidth="1257" frameHeight="673"/>
+	<SubTexture name="idler0001" x="1394" y="806" width="1257" height="665" frameX="0" frameY="-8" frameWidth="1257" frameHeight="673"/>
+	<SubTexture name="idler0002" x="2688" y="806" width="1257" height="673"/>
+	<SubTexture name="idler0003" x="2688" y="806" width="1257" height="673"/>
+	<SubTexture name="idler0004" x="100" y="1516" width="1257" height="670" frameX="0" frameY="-3" frameWidth="1257" frameHeight="673"/>
+	<SubTexture name="idler0005" x="100" y="1516" width="1257" height="670" frameX="0" frameY="-3" frameWidth="1257" frameHeight="673"/>
+	<SubTexture name="idler0006" x="1394" y="1516" width="1257" height="669" frameX="0" frameY="-4" frameWidth="1257" frameHeight="673"/>
+	<SubTexture name="idler0007" x="1394" y="1516" width="1257" height="669" frameX="0" frameY="-4" frameWidth="1257" frameHeight="673"/>
+	<SubTexture name="idler0008" x="1394" y="1516" width="1257" height="669" frameX="0" frameY="-4" frameWidth="1257" frameHeight="673"/>
+	<SubTexture name="idler0009" x="1394" y="1516" width="1257" height="669" frameX="0" frameY="-4" frameWidth="1257" frameHeight="673"/>
+	<SubTexture name="idler0010" x="1394" y="1516" width="1257" height="669" frameX="0" frameY="-4" frameWidth="1257" frameHeight="673"/>
+</TextureAtlas>

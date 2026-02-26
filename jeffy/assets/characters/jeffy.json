@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				221,
+				274
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "Jeffy Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				277,
+				317
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "Jeffy Up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				195,
+				299
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Jeffy Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				345,
+				288
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Jeffy Left"
+		},
+		{
+			"offsets": [
+				232,
+				299
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Jeffy Right"
+		},
+		{
+			"offsets": [
+				297,
+				330
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Up Miss"
+		},
+		{
+			"offsets": [
+				222,
+				276
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Down Miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				232,
+				299
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Right Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				345,
+				288
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Left Miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jeffyplayable",
+	"position": [
+		170,
+		430
+	],
+	"healthicon": "jeffy",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		120,
+		0
+	],
+	"camera_position": [
+		80,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

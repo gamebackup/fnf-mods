@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Crowd.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bouncy0000" x="0" y="0" width="1920" height="983" frameX="0" frameY="-98" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Bouncy0001" x="0" y="0" width="1920" height="983" frameX="0" frameY="-98" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Bouncy0002" x="2009" y="0" width="1920" height="1054" frameX="0" frameY="-26" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Bouncy0003" x="2009" y="0" width="1920" height="1054" frameX="0" frameY="-26" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Bouncy0004" x="0" y="1143" width="1920" height="1071" frameX="0" frameY="-9" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Bouncy0005" x="0" y="1143" width="1920" height="1071" frameX="0" frameY="-9" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Bouncy0006" x="2009" y="1143" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Bouncy0007" x="2009" y="1143" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1081"/>
+</TextureAtlas>

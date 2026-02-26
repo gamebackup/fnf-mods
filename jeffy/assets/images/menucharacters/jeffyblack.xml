@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jeffyblack.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="100" y="100" width="515" height="685" frameX="0" frameY="-22" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0001" x="100" y="100" width="515" height="685" frameX="0" frameY="-22" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0002" x="652" y="100" width="500" height="689" frameX="-5" frameY="-15" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0003" x="652" y="100" width="500" height="689" frameX="-5" frameY="-15" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0004" x="1189" y="100" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0005" x="1189" y="100" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0006" x="100" y="837" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0007" x="100" y="837" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0008" x="625" y="837" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0009" x="625" y="837" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0010" x="1150" y="837" width="488" height="701" frameX="-11" frameY="0" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0011" x="1150" y="837" width="488" height="701" frameX="-11" frameY="0" frameWidth="515" frameHeight="707"/>
+</TextureAtlas>

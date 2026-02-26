@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JeffyRapperSprites.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jeffy Rapper Doe0000" x="0" y="0" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Doe0001" x="0" y="0" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Doe0002" x="730" y="0" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Doe0003" x="730" y="0" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Down0000" x="1460" y="0" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Down0001" x="1460" y="0" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Down0002" x="2190" y="0" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Down0003" x="2190" y="0" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Idle0000" x="2920" y="0" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Idle0001" x="2920" y="0" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Idle0002" x="0" y="896" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Idle0003" x="0" y="896" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Idle0004" x="730" y="896" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Idle0005" x="730" y="896" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Idle0006" x="1460" y="896" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Idle0007" x="1460" y="896" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Idle0008" x="2190" y="896" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Idle0009" x="2190" y="896" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Left0000" x="2920" y="896" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Left0001" x="2920" y="896" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Left0002" x="0" y="1792" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Left0003" x="0" y="1792" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Right0000" x="730" y="1792" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Right0001" x="730" y="1792" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Right0002" x="1460" y="1792" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Right0003" x="1460" y="1792" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Up0000" x="2190" y="1792" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Up0001" x="2190" y="1792" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Up0002" x="2920" y="1792" width="641" height="807"/>
+	<SubTexture name="Jeffy Rapper Up0003" x="2920" y="1792" width="641" height="807"/>
+</TextureAtlas>

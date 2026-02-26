@@ -1,0 +1,11 @@
+{
+	"idle_anim": "idle",
+	"image": "jeffymenu",
+	"position": [
+		159,
+		162
+	],
+	"flipX": false,
+	"scale": 0.5,
+	"confirm_anim": "M Dad Idle"
+}

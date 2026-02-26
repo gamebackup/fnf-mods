@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JeffySprites.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jeffy Down0000" x="0" y="0" width="1434" height="807" frameX="0" frameY="0" frameWidth="1435" frameHeight="807"/>
+	<SubTexture name="Jeffy Down0001" x="1523" y="0" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1435" frameHeight="807"/>
+	<SubTexture name="Jeffy Idle0000" x="3046" y="0" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0001" x="3046" y="0" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0002" x="4569" y="0" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0003" x="4569" y="0" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0004" x="6092" y="0" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0005" x="6092" y="0" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0006" x="0" y="896" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0007" x="0" y="896" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0008" x="1523" y="896" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0009" x="1523" y="896" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0010" x="3046" y="896" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0011" x="3046" y="896" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0012" x="1523" y="896" width="1434" height="807"/>
+	<SubTexture name="Jeffy Idle0013" x="1523" y="896" width="1434" height="807"/>
+	<SubTexture name="Jeffy Left0000" x="4569" y="896" width="1434" height="807" frameX="-1" frameY="-1" frameWidth="1435" frameHeight="808"/>
+	<SubTexture name="Jeffy Left0001" x="6092" y="896" width="1434" height="807" frameX="0" frameY="0" frameWidth="1435" frameHeight="808"/>
+	<SubTexture name="Jeffy Right0000" x="0" y="1792" width="1434" height="807"/>
+	<SubTexture name="Jeffy Right0001" x="1523" y="1792" width="1434" height="807"/>
+	<SubTexture name="Jeffy Up0000" x="3046" y="1792" width="1434" height="807" frameX="0" frameY="-1" frameWidth="1434" frameHeight="808"/>
+	<SubTexture name="Jeffy Up0001" x="4569" y="1792" width="1434" height="807" frameX="0" frameY="0" frameWidth="1434" frameHeight="808"/>
+	<SubTexture name="Jeffy Up0002" x="6092" y="1792" width="1434" height="807" frameX="0" frameY="-1" frameWidth="1434" frameHeight="808"/>
+</TextureAtlas>
