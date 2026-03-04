@@ -1,0 +1,32 @@
+[
+    {
+        "name": "p4rty p4n1c",
+        "description": "team {red}c00lkidd{red} Join today!",
+        "portrait": "c00lkidd",
+        "textColor": "0xFFC8C8",
+        "extraData": {
+            "songName": "p4rty-p4n1c"
+        },
+        "rarity": 0
+    },
+    {
+        "name": "Next Victim",
+        "description": "Then, in a footnote, he mentions the evil {lime}1x1x1x1{lime}.",
+        "portrait": "1x1x1x1",
+        "textColor": "0xFFC8C8",
+        "extraData": {
+            "songName": "next-victim"
+        },
+        "rarity": 0
+    },
+    {
+        "name": "Rotten Record404",
+        "description": "DON'T PLAY ROBLOX ON MARCH 18TH?!?!",
+        "portrait": "john-doe",
+        "textColor": "0xFFC8C8",
+        "extraData": {
+            "songName": "rotten-record404"
+        },
+        "rarity": 0
+    }
+]

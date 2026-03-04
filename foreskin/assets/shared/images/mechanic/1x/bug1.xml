@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bug1.png">
+<SubTexture name="bug0000" x="0" y="0" width="3816" height="1906" frameX="0" frameY="0" frameWidth="3816" frameHeight="1906" />
+<SubTexture name="bug0001" x="0" y="1906" width="3816" height="1906" frameX="0" frameY="0" frameWidth="3816" frameHeight="1906" />
+<SubTexture name="bug0002" x="3816" y="0" width="3816" height="1906" frameX="0" frameY="0" frameWidth="3816" frameHeight="1906" />
+</TextureAtlas>
