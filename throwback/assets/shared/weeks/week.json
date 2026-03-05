@@ -1,0 +1,26 @@
+{
+	"songs": [
+		["Electro Ballin", "hex", [165, 0, 77]],
+		["Psycho Circus", "tricky", [165, 0, 77]],
+		["Smokers Breeze", "garcello", [165, 0, 77]],
+		["Grenade", "whitty", [165, 0, 77]],
+		["Defeat", "black", [165, 0, 77]],
+		["Unknown Suffering", "mouse", [165, 0, 77]]
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "stage",
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "Throwback",
+	"difficulties": "Normal",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

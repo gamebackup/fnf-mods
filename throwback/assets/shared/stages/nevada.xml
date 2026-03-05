@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" name="nevada" folder="stages/nevada/" startCamPosY="800" startCamPosX="1500">
+	<sprite name="sky"    x="-500" y="-300" sprite="sky" scroll="0.5"/>
+	<sprite name="bg"     x="-300" y="-200" sprite="background" scroll="0.7"/>
+	<sprite name="ground" x="0" y="0" sprite="ground"/>
+
+    <girlfriend x="1100" y="600" scroll="1"/>
+	<dad        x="500"  y="660" camyoffset="70" camxoffset="100"/>
+	<boyfriend  x="1500" y="650"/>
+
+	<sprite name="rocks" x="300" y="100" sprite="rocks" scroll="1.2"/>
+	<sprite name="glow"  x="0" y="0" alpha="0.4" sprite="glow"/>
+
+	<ext script="camMove"  folder="data/scripts/"/>
+	<ext script="cineBars" folder="data/scripts/"/>
+</stage>

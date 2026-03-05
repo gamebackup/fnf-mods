@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="beefwi" scale="0.425" flipX="true" camx="-150" camy="50" isPlayer="true" icon="bf-mouse" color="#FFFFB9" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="upMiss" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="leftMiss" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="rightMiss" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="downMiss" x="0" y="0" fps="24" loop="false"/>
+	<anim name="scared" anim="scared" x="0" y="0" fps="20" loop="true"/>
+	<anim name="dodge" anim="dodge" x="0" y="0" fps="24" loop="false"/>
+	<anim name="dodge-loop" anim="dodge" x="0" y="0" fps="24" loop="true" indices="6..9"/>
+</character>

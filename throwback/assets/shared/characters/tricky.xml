@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="Tricky_TB" icon="tricky" color="#0C7839" holdTime="6.1">
+	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="false" indices="0..11,13"/>
+	<anim name="idle-loop" anim="iidle loop" x="-17" y="-6" fps="24" loop="true" indices="0..2,4,5"/>
+	<anim name="singLEFT" anim="left" x="145" y="15" fps="24" loop="false"/>
+	<anim name="singLEFT-loop" anim="left" x="145" y="15" fps="24" loop="true" indices="6..9"/>
+	<anim name="singUP" anim="up" x="67" y="332" fps="24" loop="false"/>
+	<anim name="singUP-loop" anim="up" x="67" y="332" fps="24" loop="true" indices="6..9"/>
+	<anim name="singRIGHT" anim="right" x="-111" y="-31" fps="24" loop="false"/>
+	<anim name="singRIGHT-loop" anim="right" x="-111" y="-31" fps="24" loop="true" indices="6..9"/>
+	<anim name="singDOWN" anim="down" x="10" y="-18" fps="24" loop="false"/>
+	<anim name="singDOWN-loop" anim="down" x="10" y="-18" fps="24" loop="true" indices="6..9"/>
+	<anim name="funny" anim="funny" x="-250" y="-115" fps="24" loop="true" indices="0..7"/>
+</character>

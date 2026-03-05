@@ -1,0 +1,46 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" name="alley" folder="stages/alley/" startCamPosY="0" startCamPosX="0">
+    <!--act 1-->
+	<sprite name="sky" x="-400" y="-250" sprite="Sky" scroll="0.6"/>
+    <sprite name="city" x="-100" y="-80" sprite="City" scroll="0.9"/>
+    <sprite name="windows" x="-100" y="-80" sprite="Windows" alpha="0.001" scroll="0.9"/>
+    <sprite name="stage2" x="-100" y="-80" sprite="Stage2" scroll="0.9"/>
+
+    <sprite name="smokeBack" x="0" y="0" sprite="Smoke2" alpha="0.001">
+        <anim name="idle" anim="wave" loop="true" fps="24"/>
+    </sprite>
+
+    <sprite name="stage" x="0" y="0" sprite="Stage"/>
+
+    <!--act 2-->
+    <sprite name="sky2" x="-200" y="-250" sprite="Act2/Sky" scrollx="0.2" scrolly="0.3" alpha="0.001"/>
+     <sprite name="stars" x="-200" y="-250" sprite="Act2/Stars" scrollx="0.2" scrolly="0.3" alpha="0.001"/>
+    <sprite name="clouds2" x="-100" y="-150" sprite="Act2/Clouds2" scrollx="0.25" scrolly="0.35" alpha="0.001"/>
+
+    <girlfriend x="1040" y="950" scroll="1" scale="0.75"/>
+	<dad x="965" y="810" camyoffset="100"/>
+
+    <sprite name="clouds" x="-70" y="-370" sprite="Act2/Clouds" scrollx="0.4" scrolly="0.35" alpha="0.001"/>
+    <sprite name="city2" x="-200" y="-350" sprite="Act2/City" scrollx="0.4" scrolly="0.35" alpha="0.001"/>
+    <sprite name="windows2" x="-200" y="-350" sprite="Act2/Windows" scrollx="0.4" scrolly="0.35" alpha="0.001"/>
+
+	<boyfriend x="1230" y="870" camxoffset="50" camyoffset="30" scale="0.8"/>
+
+    <!--act 1-->
+    <sprite name="smokeFront" x="0" y="0" sprite="Smoke" alpha="0.001">
+        <anim name="idle" anim="wave" loop="true" fps="24"/>
+    </sprite>
+
+    <sprite name="fence" x="0" y="100" scale="3" alpha="0" sprite="Fence"/>
+    <sprite name="overlay" x="0" y="-500" sprite="Overlay"/>
+
+    <sprite name="transition" x="0" y="0" sprite="Act2/Transition" alpha="1">
+        <anim name="smoke" anim="Smoke" loop="false" fps="24"/>
+    </sprite>
+
+    <!--act 2-->
+    <sprite name="overlay2" x="-350" y="-600" sprite="Act2/Overlay" scroll="0" alpha="0.001"/>
+
+	<ext script="camMove" folder="data/scripts/"/>
+	<ext script="cineBars" folder="data/scripts/"/>
+</stage>

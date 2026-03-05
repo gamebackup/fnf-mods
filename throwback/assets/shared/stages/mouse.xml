@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1.2" name="mouse" folder="stages/mouse/" startCamPosY="600" startCamPosX="1000" noteSkin="mouse_notes" splashSkin="mouse_splashes">
+	<sprite name="bg" x="0" y="0" scale="0.75" sprite="bg"/>
+	<sprite name="shadow" x="-1000" y="-800" scale="0.4" alpha="0.6" sprite="shadow"/>
+
+	<dad x="530" y="720"/>
+	<boyfriend x="1050" y="380"/>
+
+	<sprite name="staticThingy" x="440" y="280" sprite="static" scale="4" scroll="0" alpha="0">
+        <anim name="idle" anim="idle" loop="true" fps="18"/>
+    </sprite>
+
+	<ext script="camMove" folder="data/scripts/"/>
+	<ext script="cineBars" folder="data/scripts/"/>
+</stage>

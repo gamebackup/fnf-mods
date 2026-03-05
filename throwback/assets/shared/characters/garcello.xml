@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="Garcello" icon="garcello" color="#AF66CE" scale="1" holdTime="6.1">
+	<anim name="idle" anim="idle" x="-87" y="-137" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="-82" y="-114" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="-69" y="-137" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-105" y="-136" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-74" y="-172" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="cough" x="-80" y="-146" fps="24" loop="false"/>
+</character>

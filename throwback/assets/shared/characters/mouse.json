@@ -1,0 +1,91 @@
+{
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		80,
+		25
+	],
+	"image": "characters/mouse",
+	"sing_duration": 6.1,
+	"healthicon": "mouse",
+	"flip_x": false,
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [
+				18,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+			],
+			"name": "mouse idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				6
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "mouse up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-31,
+				-13
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "mouse left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "mouse right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-21,
+				18
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "mouse down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "laugh",
+			"indices": [],
+			"name": "mouse laugh"
+		}
+	]
+}

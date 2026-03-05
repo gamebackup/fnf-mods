@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="beefthrowbackNEW" camx="-400" camy="-250" isPlayer="true" flipX="true" scale="0.49" icon="bf" color="#31B0D1" holdTime="6.1">
+	<anim name="idle" anim="idle" x="775" y="540" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="780" y="541" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="757" y="541" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="767" y="541" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="784" y="546" fps="24" loop="false"/>
+</character>

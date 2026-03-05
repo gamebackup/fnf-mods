@@ -1,0 +1,158 @@
+{
+	"healthbar_colors": [
+		12,
+		120,
+		57
+	],
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		0,
+		0
+	],
+	"image": "characters/tricky",
+	"sing_duration": 6.1,
+	"healthicon": "tricky",
+	"flip_x": false,
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [
+				0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13
+			],
+			"name": "idle0"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-17,
+				-6
+			],
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [
+				0, 1, 2, 4, 5
+			],
+			"name": "iidle loop"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				145,
+				15
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				145,
+				15
+			],
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [
+				6, 7, 8, 9
+			],
+			"name": "left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				67,
+				332
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				67,
+				332
+			],
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [
+				6, 7, 8, 9
+			],
+			"name": "up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-111,
+				-31
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-111,
+				-31
+			],
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [
+				6, 7, 8, 9
+			],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-18
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				10,
+				-18
+			],
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"indices": [
+				6, 7, 8, 9
+			],
+			"name": "down"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-250,
+				-115
+			],
+			"fps": 24,
+			"anim": "funny",
+			"indices": [
+				0, 1, 2, 3, 4, 5, 6, 7
+			],
+			"name": "funny"
+		}
+	]
+}

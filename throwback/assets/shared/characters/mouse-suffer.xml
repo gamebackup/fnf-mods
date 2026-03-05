@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="Mouse_suffer" x="-530" y="-470" camx="150" camy="0" scale="0.42" icon="mouse-suffer" color="#000000" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false" indices="12,0..11"/>
+	<anim name="singUP" anim="up" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-40" y="0" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.45" name="defeat" folder="stages/defeat/" startCamPosY="1800" startCamPosX="2500">
+	<sprite name="back" x="0" y="0" sprite="back"/>
+    <sprite name="mid" x="0" y="0" sprite="mid"/>
+    <sprite name="front" x="0" y="0" sprite="front"/>
+
+    <girlfriend x="1900" y="1500" scroll="1" alpha="0.001"/>
+	<dad x="1100" y="1450"/>
+	<boyfriend x="2350" y="1480"/>
+	
+	<ext script="camMove" folder="data/scripts/"/>
+	<ext script="cineBars" folder="data/scripts/"/>
+</stage>

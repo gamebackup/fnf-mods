@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="balls" folder="stages/balls/" startCamPosY="0" startCamPosX="0">
+	<!--normal bg-->
+	<sprite name="sky" x="-1000" y="-500" sprite="sky" scroll="0.75"/>
+    <sprite name="bushes" x="-1000" y="-500" sprite="bushes" scroll="0.9"/>
+    <sprite name="bg" x="-1000" y="-500" sprite="bg"/>
+
+	<!--evil bg-->
+	<sprite name="overlay" x="-1000" y="-500" sprite="evilballs/overlay" scale="2"/>
+
+    <girlfriend x="-30" y="50" camxoffset="-60" camyoffset="80" scroll="1" scale="0.85"/>
+	<dad x="-200" y="-50" camyoffset="150"/>
+	<boyfriend x="350" y="50" camyoffset="0" scale="0.9"/>
+	
+	<ext script="camMove" folder="data/scripts/"/>
+	<ext script="cineBars" folder="data/scripts/"/>
+</stage>

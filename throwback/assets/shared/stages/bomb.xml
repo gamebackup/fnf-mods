@@ -1,0 +1,25 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.55" name="bomb" folder="stages/bomb/" startCamPosY="500" startCamPosX="1000">
+	<sprite name="sky" x="-4000" y="-2000" scale="0.4" sprite="sky" scroll="0.7"/>
+	<sprite name="bg" x="-4000" y="-2000" scale="0.4" sprite="bg"/>
+	<sprite name="sideStuff" x="-4000" y="-2000" scale="0.4" sprite="sideStuff"/>
+
+	<sprite name="angySky" x="-4000" y="-2000" scale="0.4" alpha="0.001" sprite="angy/sky" scroll="0.7"/>
+	<sprite name="angyBg" x="-4000" y="-2000" scale="0.4" alpha="0.001" sprite="angy/bg"/>
+	<sprite name="angySideStuff" x="-4000" y="-2000" alpha="0.001" scale="0.4" sprite="angy/sideStuff"/>
+
+	<sprite name="wip" x="-100" y="-80" alpha="0.001" scale="0.7" sprite="angy/wip"/>
+
+    <girlfriend x="370" y="190" scroll="1"/>
+	<dad x="230" y="200" camyoffset="-270"/>
+	<boyfriend x="830" y="270" camyoffset="-100" camxoffset="50"/>
+
+	<sprite name="lightLeft" x="-4000" y="-2000" alpha="0.001" scale="0.4" sprite="angy/lightLeft"/>
+	<sprite name="lightRight" x="-4000" y="-2000" alpha="0.001" scale="0.4" sprite="angy/lightRight"/>
+
+    <sprite name="chain" x="-4150" y="-2050" scale="0.4" alpha="0.8" sprite="chain" scroll="0.8"/>
+	<sprite name="angyChain" x="-4150" y="-2050" scale="0.4" alpha="0.001" sprite="angy/chain" scroll="0.8"/>
+
+	<ext script="camMove" folder="data/scripts/"/>
+	<ext script="cineBars" folder="data/scripts/"/>
+</stage>

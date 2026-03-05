@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="corruptedhexthrowback" icon="corruptedhex" color="#435883" holdTime="6.1">
+	<anim name="idle" anim="idle c" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up c" x="15" y="82" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left c" x="169" y="-74" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right c" x="-47" y="15" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down c" x="5" y="-163" fps="24" loop="false"/>
+</character>

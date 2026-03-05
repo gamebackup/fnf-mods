@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="Hank_TB" camx="-190" camy="0" isPlayer="true" flipX="true" icon="hank" color="#31B0D1" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="28" loop="false"/>
+</character>
