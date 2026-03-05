@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				139,
+				274
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Jeffy Down"
+		},
+		{
+			"offsets": [
+				111,
+				327
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Jeffy Up"
+		},
+		{
+			"offsets": [
+				195,
+				299
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Jeffy Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				157,
+				298
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "Jeffy Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				32,
+				299
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "Jeffy Left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/JeffySprites",
+	"position": [
+		170,
+		430
+	],
+	"healthicon": "jeffy",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		120,
+		0
+	],
+	"camera_position": [
+		-400,
+		-230
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

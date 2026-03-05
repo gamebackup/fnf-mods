@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JeffyBoogieSprites.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cat Piano Down0000" x="6092" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Down0001" x="6092" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Down0002" x="0" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Down0003" x="0" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Down0004" x="1523" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Down0005" x="1523" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Left0000" x="6092" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Left0001" x="6092" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Left0002" x="3046" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Left0003" x="3046" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Left0004" x="4569" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Left0005" x="4569" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Right0000" x="6092" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Right0001" x="6092" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Right0002" x="0" y="896" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Right0003" x="0" y="896" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Right0004" x="1523" y="896" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Right0005" x="1523" y="896" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Up0000" x="6092" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Up0001" x="6092" y="0" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Up0002" x="3046" y="896" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Up0003" x="3046" y="896" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Up0004" x="4569" y="896" width="1434" height="807"/>
+	<SubTexture name="Cat Piano Up0005" x="4569" y="896" width="1434" height="807"/>
+	<SubTexture name="CatPianoSolo0000" x="6092" y="896" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0001" x="0" y="1792" width="1437" height="807"/>
+	<SubTexture name="CatPianoSolo0002" x="1526" y="1792" width="1435" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0003" x="3050" y="1792" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0004" x="4573" y="1792" width="1435" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0005" x="6097" y="1792" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0006" x="0" y="2688" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0007" x="1523" y="2688" width="1435" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0008" x="4573" y="1792" width="1435" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0009" x="0" y="2688" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0010" x="3047" y="2688" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0011" x="4570" y="2688" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0012" x="6093" y="2688" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0013" x="0" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0014" x="0" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0015" x="1523" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0016" x="3046" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0017" x="4569" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0018" x="6092" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0019" x="0" y="4480" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0020" x="1523" y="4480" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0021" x="1523" y="4480" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0022" x="6092" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0023" x="6092" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0024" x="6092" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0025" x="6092" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0026" x="6092" y="3584" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="CatPianoSolo0027" x="0" y="4480" width="1434" height="807" frameX="-1" frameY="0" frameWidth="1437" frameHeight="807"/>
+	<SubTexture name="Jeffy Boogies Down0000" x="3046" y="4480" width="1434" height="807"/>
+	<SubTexture name="Jeffy Boogies Down0001" x="3046" y="4480" width="1434" height="807"/>
+	<SubTexture name="Jeffy Boogies Down0002" x="4569" y="4480" width="1434" height="807"/>
+	<SubTexture name="Jeffy Boogies Down0003" x="4569" y="4480" width="1434" height="807"/>
+	<SubTexture name="Jeffy Boogies Idle0000" x="6092" y="4480" width="1434" height="807" frameX="0" frameY="0" frameWidth="1435" frameHeight="807"/>
+	<SubTexture name="Jeffy Boogies Idle0001" x="6092" y="4480" width="1434" height="807" frameX="0" frameY="0" frameWidth="1435" frameHeight="807"/>
+	<SubTexture name="Jeffy Boogies Idle0002" x="0" y="5376" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Idle0003" x="0" y="5376" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Idle0004" x="1524" y="5376" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Idle0005" x="1524" y="5376" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Idle0006" x="3048" y="5376" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Idle0007" x="3048" y="5376" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Idle0008" x="4572" y="5376" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Idle0009" x="4572" y="5376" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Left0000" x="6096" y="5376" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Left0001" x="6096" y="5376" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Left0002" x="0" y="6272" width="1434" height="807" frameX="0" frameY="0" frameWidth="1435" frameHeight="807"/>
+	<SubTexture name="Jeffy Boogies Left0003" x="0" y="6272" width="1434" height="807" frameX="0" frameY="0" frameWidth="1435" frameHeight="807"/>
+	<SubTexture name="Jeffy Boogies Left0004" x="1523" y="6272" width="1434" height="807" frameX="0" frameY="0" frameWidth="1435" frameHeight="807"/>
+	<SubTexture name="Jeffy Boogies Left0005" x="1523" y="6272" width="1434" height="807" frameX="0" frameY="0" frameWidth="1435" frameHeight="807"/>
+	<SubTexture name="Jeffy Boogies Right0000" x="3046" y="6272" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Right0001" x="3046" y="6272" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Right0002" x="4570" y="6272" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Right0003" x="4570" y="6272" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Up0000" x="6094" y="6272" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Up0001" x="6094" y="6272" width="1435" height="807"/>
+	<SubTexture name="Jeffy Boogies Up0002" x="0" y="7168" width="1434" height="807" frameX="0" frameY="0" frameWidth="1435" frameHeight="807"/>
+	<SubTexture name="Jeffy Boogies Up0003" x="0" y="7168" width="1434" height="807" frameX="0" frameY="0" frameWidth="1435" frameHeight="807"/>
+</TextureAtlas>

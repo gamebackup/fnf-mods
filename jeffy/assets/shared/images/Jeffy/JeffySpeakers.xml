@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JeffySpeakers.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Speakerts Bouncy instance 10000" x="0" y="0" width="2417" height="1182" frameX="0" frameY="-136" frameWidth="2417" frameHeight="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10001" x="0" y="0" width="2417" height="1182" frameX="0" frameY="-136" frameWidth="2417" frameHeight="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10002" x="2506" y="0" width="2417" height="1265" frameX="0" frameY="-80" frameWidth="2417" frameHeight="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10003" x="2506" y="0" width="2417" height="1265" frameX="0" frameY="-80" frameWidth="2417" frameHeight="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10004" x="5012" y="0" width="2417" height="1292" frameX="0" frameY="-62" frameWidth="2417" frameHeight="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10005" x="5012" y="0" width="2417" height="1292" frameX="0" frameY="-62" frameWidth="2417" frameHeight="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10006" x="0" y="1381" width="2417" height="1347" frameX="0" frameY="-24" frameWidth="2417" frameHeight="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10007" x="0" y="1381" width="2417" height="1347" frameX="0" frameY="-24" frameWidth="2417" frameHeight="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10008" x="2506" y="1381" width="2417" height="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10009" x="2506" y="1381" width="2417" height="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10010" x="2506" y="1381" width="2417" height="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10011" x="2506" y="1381" width="2417" height="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10012" x="2506" y="1381" width="2417" height="1383"/>
+	<SubTexture name="Speakerts Bouncy instance 10013" x="2506" y="1381" width="2417" height="1383"/>
+</TextureAtlas>

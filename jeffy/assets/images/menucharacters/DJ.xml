@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DJ.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DJ Idle0000" x="100" y="100" width="527" height="660" frameX="0" frameY="-31" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0001" x="100" y="100" width="527" height="660" frameX="0" frameY="-31" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0002" x="664" y="100" width="529" height="670" frameX="-1" frameY="-22" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0003" x="664" y="100" width="529" height="670" frameX="-1" frameY="-22" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0004" x="1230" y="100" width="532" height="682" frameX="-2" frameY="-10" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0005" x="1230" y="100" width="532" height="682" frameX="-2" frameY="-10" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0006" x="100" y="819" width="532" height="691" frameX="-5" frameY="-2" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0007" x="100" y="819" width="532" height="691" frameX="-5" frameY="-2" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0008" x="669" y="819" width="532" height="693" frameX="-5" frameY="0" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0009" x="669" y="819" width="532" height="693" frameX="-5" frameY="0" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0010" x="669" y="819" width="532" height="693" frameX="-5" frameY="0" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0011" x="669" y="819" width="532" height="693" frameX="-5" frameY="0" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0012" x="669" y="819" width="532" height="693" frameX="-5" frameY="0" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0013" x="669" y="819" width="532" height="693" frameX="-5" frameY="0" frameWidth="537" frameHeight="693"/>
+	<SubTexture name="DJ Idle0014" x="669" y="819" width="532" height="693" frameX="-5" frameY="0" frameWidth="537" frameHeight="693"/>
+</TextureAtlas>

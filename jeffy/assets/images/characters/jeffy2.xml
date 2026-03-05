@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jeffy2.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="100" y="100" width="658" height="582" frameX="-98" frameY="-98" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0001" x="100" y="100" width="658" height="582" frameX="-98" frameY="-98" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0002" x="795" y="100" width="640" height="642" frameX="-102" frameY="-33" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0003" x="795" y="100" width="640" height="642" frameX="-102" frameY="-33" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0004" x="1472" y="100" width="656" height="662" frameX="-72" frameY="-13" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0005" x="1472" y="100" width="656" height="662" frameX="-72" frameY="-13" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0006" x="2165" y="100" width="753" height="674" frameX="0" frameY="-2" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0007" x="2165" y="100" width="753" height="674" frameX="0" frameY="-2" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0008" x="2955" y="100" width="695" height="677" frameX="-39" frameY="0" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0009" x="2955" y="100" width="695" height="677" frameX="-39" frameY="0" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0010" x="3687" y="100" width="712" height="677" frameX="-29" frameY="0" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0011" x="3687" y="100" width="712" height="677" frameX="-29" frameY="0" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0012" x="3687" y="100" width="712" height="677" frameX="-29" frameY="0" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="down0013" x="3687" y="100" width="712" height="677" frameX="-29" frameY="0" frameWidth="756" frameHeight="680"/>
+	<SubTexture name="idle0000" x="4436" y="100" width="515" height="685" frameX="0" frameY="-22" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0001" x="4436" y="100" width="515" height="685" frameX="0" frameY="-22" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0002" x="4988" y="100" width="500" height="689" frameX="-5" frameY="-15" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0003" x="4988" y="100" width="500" height="689" frameX="-5" frameY="-15" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0004" x="5525" y="100" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0005" x="5525" y="100" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0006" x="6050" y="100" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0007" x="6050" y="100" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0008" x="6575" y="100" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0009" x="6575" y="100" width="488" height="700" frameX="-11" frameY="-1" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0010" x="7100" y="100" width="488" height="701" frameX="-11" frameY="0" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="idle0011" x="7100" y="100" width="488" height="701" frameX="-11" frameY="0" frameWidth="515" frameHeight="707"/>
+	<SubTexture name="left0000" x="100" y="838" width="777" height="671" frameX="0" frameY="0" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0001" x="100" y="838" width="777" height="671" frameX="0" frameY="0" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0002" x="914" y="838" width="678" height="654" frameX="-67" frameY="-1" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0003" x="914" y="838" width="678" height="654" frameX="-67" frameY="-1" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0004" x="1629" y="838" width="656" height="651" frameX="-99" frameY="-22" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0005" x="1629" y="838" width="656" height="651" frameX="-99" frameY="-22" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0006" x="2322" y="838" width="654" height="654" frameX="-115" frameY="-37" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0007" x="3013" y="838" width="657" height="671" frameX="-120" frameY="-43" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0008" x="3013" y="838" width="657" height="671" frameX="-120" frameY="-43" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0009" x="3707" y="838" width="653" height="703" frameX="-135" frameY="-49" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0010" x="3707" y="838" width="653" height="703" frameX="-135" frameY="-49" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0011" x="4397" y="838" width="644" height="707" frameX="-144" frameY="-49" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="left0012" x="4397" y="838" width="644" height="707" frameX="-144" frameY="-49" frameWidth="788" frameHeight="756"/>
+	<SubTexture name="lookatthatface0000" x="5078" y="838" width="488" height="690" frameX="0" frameY="-15" frameWidth="488" frameHeight="705"/>
+	<SubTexture name="lookatthatface0001" x="5078" y="838" width="488" height="690" frameX="0" frameY="-15" frameWidth="488" frameHeight="705"/>
+	<SubTexture name="lookatthatface0002" x="5603" y="838" width="488" height="690" frameX="0" frameY="-15" frameWidth="488" frameHeight="705"/>
+	<SubTexture name="lookatthatface0003" x="5603" y="838" width="488" height="690" frameX="0" frameY="-15" frameWidth="488" frameHeight="705"/>
+	<SubTexture name="lookatthatface0004" x="6128" y="838" width="488" height="700" frameX="0" frameY="-5" frameWidth="488" frameHeight="705"/>
+	<SubTexture name="lookatthatface0005" x="6128" y="838" width="488" height="700" frameX="0" frameY="-5" frameWidth="488" frameHeight="705"/>
+	<SubTexture name="lookatthatface0006" x="6653" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0007" x="6653" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0008" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0009" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0010" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0011" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0012" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0013" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0014" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0015" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0016" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0017" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0018" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0019" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0020" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0021" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0022" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0023" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0024" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0025" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0026" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0027" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0028" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0029" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0030" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0031" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0032" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0033" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0034" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0035" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0036" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0037" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0038" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0039" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0040" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0041" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0042" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0043" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0044" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0045" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0046" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0047" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0048" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0049" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0050" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0051" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0052" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0053" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0054" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0055" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0056" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0057" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0058" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0059" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0060" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0061" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0062" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0063" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0064" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0065" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0066" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0067" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0068" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0069" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0070" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0071" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0072" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0073" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0074" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0075" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0076" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0077" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0078" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0079" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0080" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0081" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0082" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0083" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0084" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0085" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0086" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0087" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0088" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0089" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0090" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0091" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0092" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0093" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0094" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0095" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0096" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0097" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0098" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0099" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0100" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0101" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0102" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0103" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0104" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0105" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0106" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0107" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0108" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0109" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0110" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0111" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0112" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0113" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0114" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0115" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0116" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0117" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0118" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0119" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0120" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0121" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0122" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0123" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0124" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0125" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0126" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0127" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0128" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0129" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0130" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0131" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0132" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0133" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0134" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0135" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0136" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0137" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0138" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0139" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0140" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0141" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0142" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0143" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0144" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0145" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0146" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0147" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0148" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0149" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0150" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0151" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0152" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0153" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0154" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0155" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0156" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0157" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0158" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0159" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0160" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0161" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0162" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0163" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0164" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0165" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0166" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0167" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0168" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0169" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0170" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0171" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0172" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0173" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0174" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0175" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0176" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0177" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0178" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0179" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0180" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0181" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0182" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0183" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0184" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0185" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0186" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0187" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0188" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0189" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0190" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0191" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0192" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0193" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0194" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0195" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0196" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0197" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0198" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0199" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0200" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0201" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0202" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0203" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0204" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0205" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0206" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0207" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0208" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0209" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0210" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0211" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0212" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0213" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0214" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0215" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0216" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0217" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0218" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0219" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0220" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0221" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0222" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0223" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0224" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0225" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0226" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0227" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0228" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0229" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0230" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0231" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0232" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0233" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0234" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0235" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0236" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0237" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0238" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0239" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0240" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0241" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0242" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0243" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0244" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0245" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0246" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0247" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0248" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0249" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0250" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0251" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0252" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0253" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0254" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0255" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0256" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0257" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0258" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0259" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0260" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0261" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="lookatthatface0262" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0263" x="100" y="1582" width="488" height="705"/>
+	<SubTexture name="lookatthatface0264" x="7178" y="838" width="488" height="705"/>
+	<SubTexture name="right0000" x="625" y="1582" width="895" height="603" frameX="-60" frameY="0" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0001" x="625" y="1582" width="895" height="603" frameX="-60" frameY="0" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0002" x="1557" y="1582" width="812" height="617" frameX="-98" frameY="-9" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0003" x="1557" y="1582" width="812" height="617" frameX="-98" frameY="-9" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0004" x="2406" y="1582" width="808" height="658" frameX="-76" frameY="-18" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0005" x="2406" y="1582" width="808" height="658" frameX="-76" frameY="-18" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0006" x="3251" y="1582" width="838" height="695" frameX="-25" frameY="-24" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0007" x="3251" y="1582" width="838" height="695" frameX="-25" frameY="-24" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0008" x="4126" y="1582" width="826" height="692" frameX="-9" frameY="-27" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0009" x="4126" y="1582" width="826" height="692" frameX="-9" frameY="-27" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0010" x="4989" y="1582" width="827" height="683" frameX="0" frameY="-28" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="right0011" x="4989" y="1582" width="827" height="683" frameX="0" frameY="-28" frameWidth="955" frameHeight="719"/>
+	<SubTexture name="up0000" x="5853" y="1582" width="442" height="1091" frameX="-216" frameY="0" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0001" x="5853" y="1582" width="442" height="1091" frameX="-216" frameY="0" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0002" x="6332" y="1582" width="475" height="1038" frameX="-213" frameY="-37" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0003" x="6332" y="1582" width="475" height="1038" frameX="-213" frameY="-37" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0004" x="6844" y="1582" width="779" height="807" frameX="-15" frameY="-84" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0005" x="6844" y="1582" width="779" height="807" frameX="-15" frameY="-84" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0006" x="100" y="2710" width="812" height="807" frameX="-2" frameY="-97" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0007" x="100" y="2710" width="812" height="807" frameX="-2" frameY="-97" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0008" x="949" y="2710" width="824" height="808" frameX="0" frameY="-100" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0009" x="949" y="2710" width="824" height="808" frameX="0" frameY="-100" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0010" x="1810" y="2710" width="781" height="841" frameX="-20" frameY="-100" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0011" x="1810" y="2710" width="781" height="841" frameX="-20" frameY="-100" frameWidth="824" frameHeight="1091"/>
+	<SubTexture name="up0012" x="2628" y="2710" width="756" height="878" frameX="-31" frameY="-117" frameWidth="824" frameHeight="1091"/>
+</TextureAtlas>

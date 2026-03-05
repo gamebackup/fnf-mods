@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JeffyBoogieSprites.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CatPianoSolo0000" x="100" y="100" width="646" height="660" frameX="-125" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0001" x="100" y="100" width="646" height="660" frameX="-125" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0002" x="783" y="100" width="665" height="665" frameX="-103" frameY="-20" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0003" x="1485" y="100" width="665" height="685" frameX="-103" frameY="0" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0004" x="2187" y="100" width="829" height="677" frameX="-6" frameY="-8" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0005" x="2187" y="100" width="829" height="677" frameX="-6" frameY="-8" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0006" x="3053" y="100" width="883" height="664" frameX="0" frameY="-21" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0007" x="3053" y="100" width="883" height="664" frameX="0" frameY="-21" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0008" x="3973" y="100" width="877" height="677" frameX="0" frameY="-8" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0009" x="4887" y="100" width="882" height="677" frameX="0" frameY="-8" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0010" x="5806" y="100" width="882" height="683" frameX="0" frameY="-2" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0011" x="6725" y="100" width="952" height="677" frameX="0" frameY="-8" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0012" x="6725" y="100" width="952" height="677" frameX="0" frameY="-8" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0013" x="100" y="822" width="765" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0014" x="100" y="822" width="765" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0015" x="902" y="822" width="765" height="677" frameX="0" frameY="-8" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0016" x="1704" y="822" width="765" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0017" x="2506" y="822" width="765" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0018" x="2506" y="822" width="765" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0019" x="3308" y="822" width="765" height="677" frameX="0" frameY="-8" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0020" x="4110" y="822" width="765" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0021" x="4912" y="822" width="739" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0022" x="5688" y="822" width="676" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0023" x="5688" y="822" width="676" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0024" x="6401" y="822" width="676" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0025" x="6401" y="822" width="676" height="674" frameX="0" frameY="-11" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0026" x="7114" y="822" width="676" height="674" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0027" x="7114" y="822" width="676" height="674" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0028" x="100" y="1536" width="676" height="688" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0029" x="100" y="1536" width="676" height="688" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0030" x="813" y="1536" width="676" height="683" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0031" x="813" y="1536" width="676" height="683" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0032" x="813" y="1536" width="676" height="683" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0033" x="813" y="1536" width="676" height="683" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0034" x="813" y="1536" width="676" height="683" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0035" x="813" y="1536" width="676" height="683" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0036" x="813" y="1536" width="676" height="683" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="CatPianoSolo0037" x="813" y="1536" width="676" height="683" frameX="0" frameY="-25" frameWidth="952" frameHeight="713"/>
+	<SubTexture name="cat piano hit0000" x="1526" y="1536" width="574" height="680" frameX="0" frameY="-43" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="cat piano hit0001" x="1526" y="1536" width="574" height="680" frameX="0" frameY="-43" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="cat piano hit0002" x="2137" y="1536" width="537" height="705" frameX="-13" frameY="-5" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="cat piano hit0003" x="2137" y="1536" width="537" height="705" frameX="-13" frameY="-5" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="cat piano hit0004" x="2711" y="1536" width="537" height="709" frameX="-13" frameY="-1" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="cat piano hit0005" x="2711" y="1536" width="537" height="709" frameX="-13" frameY="-1" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="cat piano hit0006" x="3285" y="1536" width="537" height="710" frameX="-13" frameY="0" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="cat piano hit0007" x="3285" y="1536" width="537" height="710" frameX="-13" frameY="0" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="cat piano hit0008" x="3285" y="1536" width="537" height="710" frameX="-13" frameY="0" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="cat piano hit0009" x="3285" y="1536" width="537" height="710" frameX="-13" frameY="0" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="cat piano hit0010" x="3285" y="1536" width="537" height="710" frameX="-13" frameY="0" frameWidth="574" frameHeight="723"/>
+	<SubTexture name="down0000" x="3859" y="1536" width="703" height="592" frameX="-11" frameY="-41" frameWidth="714" frameHeight="633"/>
+	<SubTexture name="down0001" x="3859" y="1536" width="703" height="592" frameX="-11" frameY="-41" frameWidth="714" frameHeight="633"/>
+	<SubTexture name="down0002" x="4599" y="1536" width="699" height="628" frameX="-2" frameY="-5" frameWidth="714" frameHeight="633"/>
+	<SubTexture name="down0003" x="4599" y="1536" width="699" height="628" frameX="-2" frameY="-5" frameWidth="714" frameHeight="633"/>
+	<SubTexture name="down0004" x="5335" y="1536" width="702" height="633" frameX="0" frameY="0" frameWidth="714" frameHeight="633"/>
+	<SubTexture name="down0005" x="5335" y="1536" width="702" height="633" frameX="0" frameY="0" frameWidth="714" frameHeight="633"/>
+	<SubTexture name="down0006" x="5335" y="1536" width="702" height="633" frameX="0" frameY="0" frameWidth="714" frameHeight="633"/>
+	<SubTexture name="down0007" x="5335" y="1536" width="702" height="633" frameX="0" frameY="0" frameWidth="714" frameHeight="633"/>
+	<SubTexture name="down0008" x="5335" y="1536" width="702" height="633" frameX="0" frameY="0" frameWidth="714" frameHeight="633"/>
+	<SubTexture name="down0009" x="5335" y="1536" width="702" height="633" frameX="0" frameY="0" frameWidth="714" frameHeight="633"/>
+	<SubTexture name="idlePencil0000" x="6074" y="1536" width="525" height="657" frameX="0" frameY="-18" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0001" x="6074" y="1536" width="525" height="657" frameX="0" frameY="-18" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0002" x="6636" y="1536" width="521" height="669" frameX="-4" frameY="-8" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0003" x="6636" y="1536" width="521" height="669" frameX="-4" frameY="-8" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0004" x="7194" y="1536" width="515" height="676" frameX="-8" frameY="-2" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0005" x="7194" y="1536" width="515" height="676" frameX="-8" frameY="-2" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0006" x="100" y="2283" width="515" height="678" frameX="-8" frameY="0" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0007" x="100" y="2283" width="515" height="678" frameX="-8" frameY="0" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0008" x="100" y="2283" width="515" height="678" frameX="-8" frameY="0" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0009" x="100" y="2283" width="515" height="678" frameX="-8" frameY="0" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0010" x="100" y="2283" width="515" height="678" frameX="-8" frameY="0" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="idlePencil0011" x="100" y="2283" width="515" height="678" frameX="-8" frameY="0" frameWidth="525" frameHeight="678"/>
+	<SubTexture name="left0000" x="652" y="2283" width="525" height="706" frameX="0" frameY="-6" frameWidth="528" frameHeight="712"/>
+	<SubTexture name="left0001" x="652" y="2283" width="525" height="706" frameX="0" frameY="-6" frameWidth="528" frameHeight="712"/>
+	<SubTexture name="left0002" x="1214" y="2283" width="495" height="712" frameX="-33" frameY="0" frameWidth="528" frameHeight="712"/>
+	<SubTexture name="left0003" x="1214" y="2283" width="495" height="712" frameX="-33" frameY="0" frameWidth="528" frameHeight="712"/>
+	<SubTexture name="left0004" x="1746" y="2283" width="495" height="712" frameX="-33" frameY="0" frameWidth="528" frameHeight="712"/>
+	<SubTexture name="left0005" x="1746" y="2283" width="495" height="712" frameX="-33" frameY="0" frameWidth="528" frameHeight="712"/>
+	<SubTexture name="left0006" x="1746" y="2283" width="495" height="712" frameX="-33" frameY="0" frameWidth="528" frameHeight="712"/>
+	<SubTexture name="left0007" x="1746" y="2283" width="495" height="712" frameX="-33" frameY="0" frameWidth="528" frameHeight="712"/>
+	<SubTexture name="left0008" x="1746" y="2283" width="495" height="712" frameX="-33" frameY="0" frameWidth="528" frameHeight="712"/>
+	<SubTexture name="left0009" x="1746" y="2283" width="495" height="712" frameX="-33" frameY="0" frameWidth="528" frameHeight="712"/>
+	<SubTexture name="right0000" x="2278" y="2283" width="561" height="667"/>
+	<SubTexture name="right0001" x="2278" y="2283" width="561" height="667"/>
+	<SubTexture name="right0002" x="2876" y="2283" width="517" height="667" frameX="-10" frameY="0" frameWidth="561" frameHeight="667"/>
+	<SubTexture name="right0003" x="2876" y="2283" width="517" height="667" frameX="-10" frameY="0" frameWidth="561" frameHeight="667"/>
+	<SubTexture name="right0004" x="3430" y="2283" width="506" height="666" frameX="-10" frameY="-1" frameWidth="561" frameHeight="667"/>
+	<SubTexture name="right0005" x="3430" y="2283" width="506" height="666" frameX="-10" frameY="-1" frameWidth="561" frameHeight="667"/>
+	<SubTexture name="right0006" x="3430" y="2283" width="506" height="666" frameX="-10" frameY="-1" frameWidth="561" frameHeight="667"/>
+	<SubTexture name="right0007" x="3430" y="2283" width="506" height="666" frameX="-10" frameY="-1" frameWidth="561" frameHeight="667"/>
+	<SubTexture name="right0008" x="3430" y="2283" width="506" height="666" frameX="-10" frameY="-1" frameWidth="561" frameHeight="667"/>
+	<SubTexture name="right0009" x="3430" y="2283" width="506" height="666" frameX="-10" frameY="-1" frameWidth="561" frameHeight="667"/>
+	<SubTexture name="up0000" x="3973" y="2283" width="510" height="747" frameX="-2" frameY="0" frameWidth="514" frameHeight="747"/>
+	<SubTexture name="up0001" x="3973" y="2283" width="510" height="747" frameX="-2" frameY="0" frameWidth="514" frameHeight="747"/>
+	<SubTexture name="up0002" x="4520" y="2283" width="512" height="721" frameX="-2" frameY="-22" frameWidth="514" frameHeight="747"/>
+	<SubTexture name="up0003" x="4520" y="2283" width="512" height="721" frameX="-2" frameY="-22" frameWidth="514" frameHeight="747"/>
+	<SubTexture name="up0004" x="5069" y="2283" width="514" height="714" frameX="0" frameY="-28" frameWidth="514" frameHeight="747"/>
+	<SubTexture name="up0005" x="5069" y="2283" width="514" height="714" frameX="0" frameY="-28" frameWidth="514" frameHeight="747"/>
+	<SubTexture name="up0006" x="5069" y="2283" width="514" height="714" frameX="0" frameY="-28" frameWidth="514" frameHeight="747"/>
+	<SubTexture name="up0007" x="5069" y="2283" width="514" height="714" frameX="0" frameY="-28" frameWidth="514" frameHeight="747"/>
+	<SubTexture name="up0008" x="5069" y="2283" width="514" height="714" frameX="0" frameY="-28" frameWidth="514" frameHeight="747"/>
+	<SubTexture name="up0009" x="5069" y="2283" width="514" height="714" frameX="0" frameY="-28" frameWidth="514" frameHeight="747"/>
+</TextureAtlas>

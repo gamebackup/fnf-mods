@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JeffyConcertLights.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jeffry Stage Lights instance 10000" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10001" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10002" x="1770" y="0" width="1673" height="1054" frameX="-4" frameY="-1" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10003" x="1770" y="0" width="1673" height="1054" frameX="-4" frameY="-1" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10004" x="3532" y="0" width="1646" height="1069" frameX="-18" frameY="-8" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10005" x="3532" y="0" width="1646" height="1069" frameX="-18" frameY="-8" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10006" x="5267" y="0" width="1609" height="1077" frameX="-36" frameY="-24" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10007" x="5267" y="0" width="1609" height="1077" frameX="-36" frameY="-24" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10008" x="0" y="1166" width="1585" height="1078" frameX="-48" frameY="-36" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10009" x="0" y="1166" width="1585" height="1078" frameX="-48" frameY="-36" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10010" x="1674" y="1166" width="1567" height="1075" frameX="-57" frameY="-47" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10011" x="1674" y="1166" width="1567" height="1075" frameX="-57" frameY="-47" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10012" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10013" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10014" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10015" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10016" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10017" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10018" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10019" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10020" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10021" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10022" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10023" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10024" x="3330" y="1166" width="1556" height="1074" frameX="-63" frameY="-53" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10025" x="0" y="1166" width="1585" height="1078" frameX="-48" frameY="-36" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10026" x="0" y="1166" width="1585" height="1078" frameX="-48" frameY="-36" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10027" x="5267" y="0" width="1609" height="1077" frameX="-36" frameY="-24" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10028" x="5267" y="0" width="1609" height="1077" frameX="-36" frameY="-24" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10029" x="3532" y="0" width="1646" height="1069" frameX="-18" frameY="-8" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10030" x="3532" y="0" width="1646" height="1069" frameX="-18" frameY="-8" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10031" x="1770" y="0" width="1673" height="1054" frameX="-4" frameY="-1" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10032" x="1770" y="0" width="1673" height="1054" frameX="-4" frameY="-1" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10033" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10034" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10035" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10036" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10037" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10038" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10039" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10040" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10041" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10042" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10043" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10044" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10045" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10046" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+	<SubTexture name="Jeffry Stage Lights instance 10047" x="0" y="0" width="1681" height="1048" frameX="0" frameY="0" frameWidth="1681" frameHeight="1127"/>
+</TextureAtlas>

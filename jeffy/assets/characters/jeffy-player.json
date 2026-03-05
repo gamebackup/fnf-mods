@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				134,
+				378
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				125,
+				444
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				143,
+				481
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				195,
+				417
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				143,
+				372
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "missd",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				144,
+				481
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "missu",
+			"indices": []
+		},
+		{
+			"offsets": [
+				221,
+				417
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				223,
+				418
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "missr"
+		},
+		{
+			"offsets": [
+				123,
+				445
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "missl"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Jeffy_micSprites",
+	"position": [
+		160,
+		490
+	],
+	"healthicon": "jeffy",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		120,
+		40
+	],
+	"camera_position": [
+		240,
+		-320
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

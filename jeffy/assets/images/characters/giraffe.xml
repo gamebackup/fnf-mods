@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="giraffe.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="girraffe bouce0000" x="100" y="100" width="524" height="748" frameX="0" frameY="-72" frameWidth="524" frameHeight="820"/>
+	<SubTexture name="girraffe bouce0001" x="100" y="100" width="524" height="748" frameX="0" frameY="-72" frameWidth="524" frameHeight="820"/>
+	<SubTexture name="girraffe bouce0002" x="661" y="100" width="478" height="787" frameX="-26" frameY="-33" frameWidth="524" frameHeight="820"/>
+	<SubTexture name="girraffe bouce0003" x="661" y="100" width="478" height="787" frameX="-26" frameY="-33" frameWidth="524" frameHeight="820"/>
+	<SubTexture name="girraffe bouce0004" x="1176" y="100" width="453" height="812" frameX="-41" frameY="-8" frameWidth="524" frameHeight="820"/>
+	<SubTexture name="girraffe bouce0005" x="1176" y="100" width="453" height="812" frameX="-41" frameY="-8" frameWidth="524" frameHeight="820"/>
+	<SubTexture name="girraffe bouce0006" x="100" y="949" width="442" height="820" frameX="-47" frameY="0" frameWidth="524" frameHeight="820"/>
+	<SubTexture name="girraffe bouce0007" x="100" y="949" width="442" height="820" frameX="-47" frameY="0" frameWidth="524" frameHeight="820"/>
+	<SubTexture name="girraffe bouce0008" x="100" y="949" width="442" height="820" frameX="-47" frameY="0" frameWidth="524" frameHeight="820"/>
+	<SubTexture name="girraffe bouce0009" x="100" y="949" width="442" height="820" frameX="-47" frameY="0" frameWidth="524" frameHeight="820"/>
+	<SubTexture name="girraffe bouce0010" x="100" y="949" width="442" height="820" frameX="-47" frameY="0" frameWidth="524" frameHeight="820"/>
+</TextureAtlas>

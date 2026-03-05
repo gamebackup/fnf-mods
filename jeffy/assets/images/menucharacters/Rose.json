@@ -1,0 +1,10 @@
+{
+	"idle_anim": "rose",
+	"confirm_anim": "rose",
+	"position": [
+		522,
+		224
+	],
+	"scale": 0.3,
+	"image": "RoseMenu"
+}

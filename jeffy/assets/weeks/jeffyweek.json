@@ -1,0 +1,48 @@
+{
+	"storyName": "vs jeffy",
+	"hideFreeplay": false,
+	"weekBackground": "jeffyroom",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"jeffymenu",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"doh de oh",
+			"jeffy",
+			[
+				255,
+				180,
+				0
+			]
+		],
+		[
+			"pencil",
+			"jeffy",
+			[
+				255,
+				180,
+				0
+			]
+		],
+		[
+			"bang em and slang em",
+			"jfee",
+			[
+				0,
+				40,
+				140
+			]
+		]
+	],
+	"weekName": "Custom Week"
+}

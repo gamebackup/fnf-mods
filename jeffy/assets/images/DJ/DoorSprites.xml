@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DoorSprites.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="doors0000" x="0" y="0" width="1476" height="3373" frameX="-2834" frameY="0" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0001" x="1576" y="0" width="1281" height="2925" frameX="-2599" frameY="-290" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0002" x="2957" y="0" width="1085" height="2478" frameX="-2364" frameY="-579" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0003" x="4142" y="0" width="888" height="2030" frameX="-2130" frameY="-869" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0004" x="5130" y="0" width="2588" height="1750" frameX="0" frameY="-1158" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0005" x="0" y="3473" width="2223" height="1505" frameX="-121" frameY="-1299" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0006" x="2323" y="3473" width="1860" height="1258" frameX="-241" frameY="-1441" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0007" x="4283" y="3473" width="1495" height="1013" frameX="-362" frameY="-1582" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0008" x="5878" y="3473" width="1133" height="763" frameX="-482" frameY="-1728" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0009" x="7111" y="3473" width="890" height="594" frameX="-603" frameY="-1792" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0010" x="0" y="5078" width="705" height="477" frameX="-666" frameY="-1855" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0011" x="805" y="5078" width="520" height="358" frameX="-728" frameY="-1919" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0012" x="1425" y="5078" width="386" height="266" frameX="-791" frameY="-1957" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0013" x="1911" y="5078" width="286" height="201" frameX="-820" frameY="-1995" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0014" x="2297" y="5078" width="187" height="135" frameX="-848" frameY="-2033" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0015" x="2584" y="5078" width="87" height="70" frameX="-877" frameY="-2071" frameWidth="4310" frameHeight="3373"/>
+	<SubTexture name="doors0016" x="2771" y="5078" width="52" height="41" frameX="-892" frameY="-2085" frameWidth="4310" frameHeight="3373"/>
+</TextureAtlas>

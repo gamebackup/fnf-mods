@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="eyeglare.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="shake0000" x="100" y="100" width="112" height="135"/>
+	<SubTexture name="shake0001" x="249" y="100" width="111" height="135" frameX="-1" frameY="0" frameWidth="112" frameHeight="135"/>
+</TextureAtlas>

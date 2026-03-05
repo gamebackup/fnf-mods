@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yelloJeffy.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idol0000" x="100" y="100" width="1920" height="1080"/>
+	<SubTexture name="idol0001" x="100" y="100" width="1920" height="1080"/>
+	<SubTexture name="idol0002" x="2057" y="100" width="1920" height="1080"/>
+	<SubTexture name="idol0003" x="2057" y="100" width="1920" height="1080"/>
+	<SubTexture name="idol0004" x="4014" y="100" width="1920" height="1080"/>
+	<SubTexture name="idol0005" x="4014" y="100" width="1920" height="1080"/>
+	<SubTexture name="idol0006" x="5971" y="100" width="1920" height="1080"/>
+	<SubTexture name="idol0007" x="5971" y="100" width="1920" height="1080"/>
+	<SubTexture name="idol0008" x="100" y="1217" width="1920" height="1080"/>
+	<SubTexture name="idol0009" x="100" y="1217" width="1920" height="1080"/>
+	<SubTexture name="idol0010" x="2057" y="1217" width="1920" height="1080"/>
+	<SubTexture name="idol0011" x="2057" y="1217" width="1920" height="1080"/>
+	<SubTexture name="idol0012" x="4014" y="1217" width="1920" height="1080"/>
+	<SubTexture name="idol0013" x="4014" y="1217" width="1920" height="1080"/>
+	<SubTexture name="idol0014" x="100" y="1217" width="1920" height="1080"/>
+	<SubTexture name="idol0015" x="100" y="1217" width="1920" height="1080"/>
+</TextureAtlas>

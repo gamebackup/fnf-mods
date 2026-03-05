@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				105,
+				382
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "face",
+			"indices": [],
+			"name": "lookatthatface"
+		},
+		{
+			"offsets": [
+				222,
+				276
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Down Miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				232,
+				299
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Right Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				345,
+				288
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Left Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				261,
+				357
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				362,
+				449
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				131,
+				397
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				227,
+				705
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				115,
+				379
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jeffy2",
+	"position": [
+		80,
+		420
+	],
+	"healthicon": "jeffy",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		120,
+		0
+	],
+	"camera_position": [
+		-310,
+		-330
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}
