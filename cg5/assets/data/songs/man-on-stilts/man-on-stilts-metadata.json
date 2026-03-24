@@ -1,0 +1,44 @@
+{
+ "version": "2.2.4",
+ "songName": "Man On Stilts",
+ "artist": "CG5",
+ "charter": "Hasuchila",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf-cg5",
+   "girlfriend": "or3o",
+   "opponent": "cg5",
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "mixRoom",
+  "noteStyle": "funkincg5",
+  "album": "cg5week1",
+  "ratings": {
+   "easy": 4,
+   "normal": 5,
+   "hard": 6
+  },
+  "previewStart": 41188,
+  "previewEnd": 53114
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.3",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 163,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

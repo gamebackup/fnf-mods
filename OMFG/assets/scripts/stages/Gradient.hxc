@@ -1,0 +1,45 @@
+import funkin.play.stage.Stage;
+import funkin.play.PlayState;
+import flixel.FlxSprite;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+
+class Gradient extends Stage {
+
+	public function new() {
+		super('Gradient');
+	}
+
+    function onCreate(event:ScriptEvent) {
+        super.onCreate(event);
+
+        var babyGradient:FlxSprite = getNamedProp('babyGradient');
+        babyGradient.blend = 0;
+        babyGradient.alpha = 0.2; // base visibility
+    }
+
+    override function onCountdownStart()
+	{
+		super.onCountdownStart();
+
+        var gf = PlayState.instance.currentStage.getGirlfriend();
+        if (gf != null)
+        {
+            gf.alpha = 0;
+        }
+	}
+
+    function onBeatHit(event){
+        super.onBeatHit(event);
+
+        var babyGradient:FlxSprite = getNamedProp('babyGradient');
+
+        // pulse up
+        babyGradient.alpha = 1;
+
+        // smooth fade back down
+        FlxTween.tween(babyGradient, {alpha: 0.2}, 0.45, {
+            ease: FlxEase.sineOut
+        });
+    }
+}

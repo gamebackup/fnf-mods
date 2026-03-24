@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Or3o.png" width="2004" height="3709">
+<!--
+Sprite sheet generated with homemade Python code
+"It's a good solution for when there's no internet connection and I can't use Funkin Packer™"
+By KyleFaz87 :bleh:
+-->
+	<SubTexture name="M Or3o Idle0000" x="2" y="2" width="660" height="504" frameX="-48" frameY="-78" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0001" x="664" y="2" width="668" height="508" frameX="-44" frameY="-78" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0002" x="1334" y="2" width="668" height="509" frameX="-44" frameY="-77" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0003" x="2" y="513" width="658" height="507" frameX="-49" frameY="-77" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0004" x="662" y="513" width="658" height="508" frameX="-49" frameY="-76" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0005" x="1322" y="513" width="658" height="508" frameX="-49" frameY="-76" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0006" x="2" y="1023" width="658" height="509" frameX="-49" frameY="-75" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0007" x="662" y="1023" width="658" height="521" frameX="-49" frameY="-63" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0008" x="662" y="1023" width="658" height="521" frameX="-49" frameY="-63" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0009" x="662" y="1023" width="658" height="521" frameX="-49" frameY="-63" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0010" x="1322" y="1023" width="658" height="583" frameX="-49" frameY="-1" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0011" x="1322" y="1023" width="658" height="583" frameX="-49" frameY="-1" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0012" x="1322" y="1023" width="658" height="583" frameX="-49" frameY="-1" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0013" x="2" y="1608" width="658" height="525" frameX="-49" frameY="-59" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0014" x="2" y="1608" width="658" height="525" frameX="-49" frameY="-59" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0015" x="662" y="1608" width="658" height="518" frameX="-49" frameY="-66" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0016" x="1322" y="1608" width="660" height="516" frameX="-48" frameY="-66" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0017" x="2" y="2135" width="668" height="519" frameX="-44" frameY="-67" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0018" x="672" y="2135" width="668" height="519" frameX="-44" frameY="-67" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0019" x="1342" y="2135" width="658" height="520" frameX="-49" frameY="-64" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0020" x="2" y="2657" width="658" height="520" frameX="-49" frameY="-64" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0021" x="662" y="2657" width="658" height="522" frameX="-49" frameY="-62" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0022" x="1322" y="2657" width="658" height="524" frameX="-49" frameY="-60" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0023" x="1322" y="2657" width="658" height="524" frameX="-49" frameY="-60" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0024" x="1322" y="2657" width="658" height="524" frameX="-49" frameY="-60" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0025" x="2" y="3183" width="658" height="524" frameX="-49" frameY="-60" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0026" x="2" y="3183" width="658" height="524" frameX="-49" frameY="-60" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0027" x="2" y="3183" width="658" height="524" frameX="-49" frameY="-60" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0028" x="662" y="3183" width="658" height="523" frameX="-49" frameY="-61" frameWidth="772" frameHeight="604"/>
+	<SubTexture name="M Or3o Idle0029" x="662" y="3183" width="658" height="523" frameX="-49" frameY="-61" frameWidth="772" frameHeight="604"/>
+</TextureAtlas>

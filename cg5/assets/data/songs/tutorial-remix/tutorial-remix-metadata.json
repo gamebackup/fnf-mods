@@ -1,0 +1,43 @@
+{
+ "version": "2.2.4",
+ "songName": "Tutorial (CG5 Remix)",
+ "artist": "CG5 (.feat OR3O)",
+ "charter": "Hasuchila",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf-cg5",
+   "girlfriend": "none",
+   "opponent": "or3o",
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "mixRoomTutorial",
+  "noteStyle": "funkincg5",
+  "album": "cg5week1",
+  "ratings": {
+   "easy": 1,
+   "normal": 1,
+   "hard": 2
+  },
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.3",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 100,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

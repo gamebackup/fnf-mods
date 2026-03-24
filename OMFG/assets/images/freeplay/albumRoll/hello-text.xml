@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="hello-text.png">
+<SubTexture name="switch0000" x="0" y="0" width="228" height="91" frameX="-8" frameY="-8" frameWidth="330" frameHeight="156" />
+<SubTexture name="switch0001" x="0" y="0" width="228" height="91" frameX="-8" frameY="-8" frameWidth="330" frameHeight="156" />
+<SubTexture name="switch0002" x="0" y="0" width="228" height="91" frameX="-8" frameY="-8" frameWidth="330" frameHeight="156" />
+<SubTexture name="switch0003" x="0" y="0" width="228" height="91" frameX="-8" frameY="-8" frameWidth="330" frameHeight="156" />
+<SubTexture name="switch0004" x="0" y="0" width="228" height="91" frameX="-8" frameY="-8" frameWidth="330" frameHeight="156" />
+<SubTexture name="switch0005" x="0" y="0" width="228" height="91" frameX="-8" frameY="-8" frameWidth="330" frameHeight="156" />
+<SubTexture name="idle0000" x="0" y="91" width="228" height="91" frameX="-8" frameY="-11" frameWidth="330" frameHeight="156" />
+</TextureAtlas>

@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "name": "CG5: Volume 1",
+  "artists": ["CG5 (.feat OR3O)"],
+  "albumArtAsset": "freeplay/albumRoll/cg5week1",
+  "albumTitleAsset": "freeplay/albumRoll/cg5week1-text",
+  "albumTitleOffsets": [-20, 0]
+}

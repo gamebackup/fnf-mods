@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cg5week1-text.png">
+	<!-- Created with Adobe Animate version 24.0.4.28 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="switch0000" x="10" y="10" width="279" height="154" frameX="0" frameY="0" frameWidth="279" frameHeight="160"/>
+	<SubTexture name="switch0001" x="10" y="10" width="279" height="154" frameX="0" frameY="0" frameWidth="279" frameHeight="160"/>
+	<SubTexture name="switch0002" x="10" y="10" width="279" height="154" frameX="0" frameY="0" frameWidth="279" frameHeight="160"/>
+	<SubTexture name="idle0000" x="10" y="244" width="279" height="154" frameX="0" frameY="-6" frameWidth="279" frameHeight="160"/>
+</TextureAtlas>

@@ -1,0 +1,88 @@
+{
+  "version": "2.2.4",
+  "songName": "Jungle Bug",
+  "artist": "yya",
+  "charter": "AmeliaBreak",
+  "divisions": 96,
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {},
+    "vocals": {},
+    "altVocals": {}
+  },
+  "playData": {
+    "songVariations": [],
+    "difficulties": ["easy", "normal", "hard"],
+    "characters": {
+      "player": "bf",
+      "girlfriend": "gf",
+      "opponent": "jane",
+      "instrumental": "",
+      "altInstrumentals": [],
+      "opponentVocals": ["jane"],
+      "playerVocals": ["bf"]
+    },
+    "stage": "fa65",
+    "noteStyle": "funkin",
+    "ratings": {
+      "easy": 4,
+      "normal": 5,
+      "hard": 6
+    },
+    "previewStart": 150000,
+    "previewEnd": 165000
+  },
+  "generatedBy": "Friday Night Funkin' - v0.8.0",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 140,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    },
+    {
+      "t": 47811.2858,
+      "b": 111.5597,
+      "bpm": 140,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    },
+    {
+      "t": 61122.0001,
+      "b": 142.618,
+      "bpm": 140,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    },
+    {
+      "t": 101047.2144,
+      "b": 235.7768,
+      "bpm": 140,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    },
+    {
+      "t": 138723.0001,
+      "b": 323.687,
+      "bpm": 140,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    },
+    {
+      "t": 159754,
+      "b": 372.7593,
+      "bpm": 140,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    }
+  ]
+}

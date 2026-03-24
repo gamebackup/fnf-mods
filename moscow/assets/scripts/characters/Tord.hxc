@@ -1,0 +1,31 @@
+import funkin.play.character.SparrowCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.PlayState;
+
+class Tord extends SparrowCharacter
+{
+  function new()
+  {
+    super('Tord');
+  }
+
+  function onNoteHit(event:HitNoteScriptEvent)
+  {
+    // Override the hit note animation.
+    switch (event.note.kind)
+    {
+      case "tord-alt":
+        holdTimer = 0;
+        this.playSingAnimation(event.note.noteData.getDirection(), false, 'alt');
+        return;
+      case "tord-laugh":
+        holdTimer = 0;
+        //verifica si la flecha hacia arriba es la de up para realizar
+        // la version con prefijo de -laugh
+        this.playSingAnimation(2, false, 'laugh');
+        return;
+    }
+
+    super.onNoteHit(event);
+  }
+}

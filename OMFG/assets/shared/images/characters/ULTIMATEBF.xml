@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ULTIMATEBF.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Boyfriend_Miss_down0000" x="5" y="5" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_down0001" x="490" y="5" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_down0002" x="490" y="5" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_left0000" x="975" y="5" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_left0001" x="1460" y="5" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_left0002" x="1945" y="5" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_right0000" x="2430" y="5" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_right0001" x="2915" y="5" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_right0002" x="3400" y="5" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_up0000" x="5" y="650" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_up0001" x="490" y="650" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Miss_up0002" x="975" y="650" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_down0000" x="1460" y="650" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_down0001" x="1945" y="650" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_hey0000" x="2430" y="650" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_hey0001" x="2915" y="650" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_hey0002" x="3400" y="650" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_left0000" x="5" y="1295" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_left0001" x="490" y="1295" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_right0000" x="975" y="1295" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_right0001" x="1460" y="1295" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_up0000" x="1945" y="1295" width="480" height="640"/>
+	<SubTexture name="Boyfriend_Sing_up0001" x="2430" y="1295" width="480" height="640"/>
+	<SubTexture name="Boyfriend_dance_Idle0000" x="2915" y="1295" width="480" height="640"/>
+	<SubTexture name="Boyfriend_dance_Idle0001" x="3400" y="1295" width="480" height="640"/>
+	<SubTexture name="Boyfriend_dance_Idle0002" x="5" y="1940" width="480" height="640"/>
+	<SubTexture name="Boyfriend_dance_Idle0003" x="490" y="1940" width="480" height="640"/>
+	<SubTexture name="Boyfriend_dance_Idle0004" x="975" y="1940" width="480" height="640"/>
+</TextureAtlas>

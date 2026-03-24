@@ -1,0 +1,212 @@
+{
+	"renderType": "sparrow",
+	"version": "1.0.1",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Or3o",
+	"cameraOffsets": [
+		0,
+		77
+	],
+	"flipX": false,
+	"isPixel": false,
+	"singTime": 8,
+	"startingAnimation": "danceRight",
+	"healthIcon": {
+		"id": "or3o",
+		"isPixel": false
+	},
+	"assetPath": "characters/Or3o",
+	"animations": [
+		{
+			"frameIndices": [],
+			"prefix": "Or3o Cheer",
+			"offsets": [
+				1,
+				-7
+			],
+			"frameRate": 24,
+			"name": "cheer",
+			"looped": false
+		},
+		{
+			"frameIndices": [],
+			"prefix": "Or3o Left Note",
+			"offsets": [
+				0,
+				-23
+			],
+			"frameRate": 24,
+			"name": "singLEFT",
+			"looped": false
+		},
+		{
+			"frameIndices": [],
+			"prefix": "Or3o Down Note",
+			"offsets": [
+				0,
+				-17
+			],
+			"frameRate": 24,
+			"name": "singDOWN",
+			"looped": false
+		},
+		{
+			"frameIndices": [],
+			"prefix": "Or3o Up Note",
+			"offsets": [
+				0,
+				6
+			],
+			"frameRate": 24,
+			"name": "singUP",
+			"looped": false
+		},
+		{
+			"frameIndices": [],
+			"prefix": "Or3o Right Note",
+			"offsets": [
+				0,
+				-13
+			],
+			"frameRate": 24,
+			"name": "singRIGHT",
+			"looped": false
+		},
+		{
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			],
+			"prefix": "Or3o sad",
+			"offsets": [
+				-3,
+				-27
+			],
+			"frameRate": 24,
+			"name": "sad",
+			"looped": false
+		},
+		{
+			"frameIndices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"prefix": "Or3o Dancing Beat",
+			"offsets": [
+				0,
+				-9
+			],
+			"frameRate": 24,
+			"name": "danceLeft",
+			"looped": false
+		},
+		{
+			"frameIndices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"prefix": "Or3o Dancing Beat",
+			"offsets": [
+				0,
+				-9
+			],
+			"frameRate": 24,
+			"name": "danceRight",
+			"looped": false
+		},
+		{
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"prefix": "Or3o Dancing Beat Hair blowing",
+			"offsets": [
+				65,
+				-9
+			],
+			"frameRate": 24,
+			"name": "hairBlow",
+			"looped": true
+		},
+		{
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"prefix": "Or3o Dancing Beat Hair Landing",
+			"offsets": [
+				0,
+				-9
+			],
+			"frameRate": 24,
+			"name": "hairFall",
+			"looped": false
+		},
+		{
+			"frameIndices": [],
+			"prefix": "Or3o FEAR",
+			"offsets": [
+				-3,
+				-11
+			],
+			"frameRate": 24,
+			"name": "scared",
+			"looped": true
+		}
+	]
+}

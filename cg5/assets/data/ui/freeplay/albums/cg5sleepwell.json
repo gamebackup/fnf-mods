@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "name": "CG5: Bonus Song 1",
+  "artists": ["CG5 (.feat Yharoa)"],
+  "albumArtAsset": "freeplay/albumRoll/cg5sleepwell",
+  "albumTitleAsset": "freeplay/albumRoll/cg5week1-text",
+  "albumTitleOffsets": [-20, 0]
+}

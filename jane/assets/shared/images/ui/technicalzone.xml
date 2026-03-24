@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="technicalzone.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TechnicalZone_Bop0000" x="0" y="0" width="495" height="428"/>
+	<SubTexture name="TechnicalZone_Bop0001" x="0" y="0" width="495" height="428"/>
+	<SubTexture name="TechnicalZone_Bop0002" x="495" y="0" width="437" height="373" frameX="-27" frameY="-30" frameWidth="495" frameHeight="428"/>
+	<SubTexture name="TechnicalZone_Bop0003" x="495" y="0" width="437" height="373" frameX="-27" frameY="-30" frameWidth="495" frameHeight="428"/>
+	<SubTexture name="TechnicalZone_Bop0004" x="932" y="0" width="447" height="382" frameX="-22" frameY="-25" frameWidth="495" frameHeight="428"/>
+	<SubTexture name="TechnicalZone_Bop0005" x="932" y="0" width="447" height="382" frameX="-22" frameY="-25" frameWidth="495" frameHeight="428"/>
+	<SubTexture name="TechnicalZone_Bop0006" x="1379" y="0" width="464" height="398" frameX="-14" frameY="-16" frameWidth="495" frameHeight="428"/>
+	<SubTexture name="TechnicalZone_Bop0007" x="1379" y="0" width="464" height="398" frameX="-14" frameY="-16" frameWidth="495" frameHeight="428"/>
+	<SubTexture name="TechnicalZone_Bop0008" x="1379" y="0" width="464" height="398" frameX="-14" frameY="-16" frameWidth="495" frameHeight="428"/>
+	<SubTexture name="TechnicalZone_Bop0009" x="1379" y="0" width="464" height="398" frameX="-14" frameY="-16" frameWidth="495" frameHeight="428"/>
+	<SubTexture name="TechnicalZone_Close0000" x="1843" y="0" width="454" height="420" frameX="-149" frameY="-3" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0001" x="1843" y="0" width="454" height="420" frameX="-149" frameY="-3" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0002" x="2297" y="0" width="498" height="359" frameX="-126" frameY="-10" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0003" x="2297" y="0" width="498" height="359" frameX="-126" frameY="-10" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0004" x="2795" y="0" width="641" height="400" frameX="-56" frameY="-14" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0005" x="3436" y="0" width="641" height="400" frameX="-56" frameY="-12" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0006" x="0" y="428" width="752" height="399" frameX="0" frameY="-8" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0007" x="752" y="428" width="439" height="399" frameX="-147" frameY="-4" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0008" x="1191" y="428" width="319" height="399" frameX="-204" frameY="0" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0009" x="1510" y="428" width="351" height="399" frameX="-188" frameY="-7" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0010" x="1861" y="428" width="363" height="400" frameX="-182" frameY="-9" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0011" x="2224" y="428" width="375" height="400" frameX="-176" frameY="-13" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0012" x="2599" y="428" width="395" height="400" frameX="-166" frameY="-22" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0013" x="2994" y="428" width="415" height="400" frameX="-156" frameY="-32" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0014" x="3409" y="428" width="434" height="400" frameX="-147" frameY="-42" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0015" x="0" y="828" width="494" height="400" frameX="-117" frameY="-82" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0016" x="494" y="828" width="494" height="400" frameX="-117" frameY="-82" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0017" x="988" y="828" width="554" height="400" frameX="-87" frameY="-112" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0018" x="1542" y="828" width="574" height="400" frameX="-77" frameY="-122" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0019" x="2116" y="828" width="176" height="175" frameX="-279" frameY="-123" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0020" x="2116" y="828" width="176" height="175" frameX="-279" frameY="-123" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0021" x="2116" y="828" width="176" height="175" frameX="-279" frameY="-123" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0022" x="2116" y="828" width="176" height="175" frameX="-279" frameY="-123" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0023" x="2116" y="828" width="176" height="175" frameX="-269" frameY="-123" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0024" x="2116" y="828" width="176" height="175" frameX="-269" frameY="-123" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0025" x="2116" y="828" width="176" height="175" frameX="-209" frameY="-123" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0026" x="2116" y="828" width="176" height="175" frameX="-209" frameY="-123" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0027" x="2116" y="828" width="176" height="175" frameX="-80" frameY="-123" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0028" x="2116" y="828" width="176" height="175" frameX="-80" frameY="-123" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Close0029" x="2292" y="828" width="0" height="0" frameX="-152" frameY="-8" frameWidth="752" frameHeight="522"/>
+	<SubTexture name="TechnicalZone_Enter0000" x="2292" y="828" width="628" height="337" frameX="0" frameY="-81" frameWidth="849" frameHeight="487"/>
+	<SubTexture name="TechnicalZone_Enter0001" x="2292" y="828" width="628" height="337" frameX="0" frameY="-81" frameWidth="849" frameHeight="487"/>
+	<SubTexture name="TechnicalZone_Enter0002" x="2920" y="828" width="519" height="487" frameX="-330" frameY="0" frameWidth="849" frameHeight="487"/>
+	<SubTexture name="TechnicalZone_Enter0003" x="2920" y="828" width="519" height="487" frameX="-330" frameY="0" frameWidth="849" frameHeight="487"/>
+	<SubTexture name="TechnicalZone_Enter0004" x="3439" y="828" width="532" height="457" frameX="-278" frameY="-17" frameWidth="849" frameHeight="487"/>
+	<SubTexture name="TechnicalZone_Enter0005" x="3439" y="828" width="532" height="457" frameX="-278" frameY="-17" frameWidth="849" frameHeight="487"/>
+	<SubTexture name="TechnicalZone_Enter0006" x="0" y="1315" width="497" height="428" frameX="-308" frameY="-32" frameWidth="849" frameHeight="487"/>
+	<SubTexture name="TechnicalZone_Enter0007" x="0" y="1315" width="497" height="428" frameX="-308" frameY="-32" frameWidth="849" frameHeight="487"/>
+	<SubTexture name="TechnicalZone_Enter0008" x="0" y="1315" width="497" height="428" frameX="-308" frameY="-32" frameWidth="849" frameHeight="487"/>
+	<SubTexture name="TechnicalZone_Enter0009" x="0" y="1315" width="497" height="428" frameX="-308" frameY="-32" frameWidth="849" frameHeight="487"/>
+</TextureAtlas>

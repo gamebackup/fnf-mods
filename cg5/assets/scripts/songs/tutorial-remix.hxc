@@ -1,0 +1,15 @@
+import funkin.play.song.Song;
+import funkin.save.Save;
+
+class TutorialCG5RemixSong extends Song
+{
+  public function new()
+  {
+    super('tutorial-remix');
+  }
+
+  public override function isSongNew(currentDifficulty:String, currentVariation:String):Bool
+  {
+    return !Save.instance.hasBeatenSong(this.id, null, this.variation);
+  }
+}

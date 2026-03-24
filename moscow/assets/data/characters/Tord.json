@@ -1,0 +1,194 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1.5,
+	"name": "Tord",
+	"flipX": false,
+	"cameraOffsets": [
+		-30,
+		-40
+	],
+	"isPixel": false,
+	"singTime": 4,
+	"startingAnimation": "idle",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"id": "tord",
+		"flipX": false
+	},
+	"assetPath": "characters/larsson",
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"swfMode": true,
+		"useRenderTexture": false,
+		"cacheOnLoad": false,
+		"filterQuality": 1
+	},
+	"animations": [
+		{
+			"offsets": [
+				-45,
+				20
+			],
+			"frameIndices": [],
+			"prefix": "IDLE",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-5,
+				14
+			],
+			"frameIndices": [],
+			"prefix": "LEFT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-10,
+				-61
+			],
+			"frameIndices": [],
+			"prefix": "DOWN",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				9,
+				67
+			],
+			"frameIndices": [],
+			"prefix": "UP",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-48,
+				8
+			],
+			"frameIndices": [],
+			"prefix": "RIGHT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-13,
+				-17
+			],
+			"frameIndices": [],
+			"prefix": "ALT-LEFT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT-alt",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-27,
+				-30
+			],
+			"frameIndices": [],
+			"prefix": "ALT-DOWN",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN-alt",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-43,
+				-8
+			],
+			"frameIndices": [],
+			"prefix": "ALT-UP",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP-alt",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-25,
+				-17
+			],
+			"frameIndices": [],
+			"prefix": "ALT-RIGHT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT-alt",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-43,
+				35
+			],
+			"frameIndices": [],
+			"prefix": "HEY",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "hey",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-43,
+				35
+			],
+			"frameIndices": [],
+			"prefix": "LAUGH",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP-laugh",
+			"flipY": false,
+			"frameRate": 24
+		}
+	]
+}

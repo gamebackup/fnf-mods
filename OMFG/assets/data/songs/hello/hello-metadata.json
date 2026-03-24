@@ -1,0 +1,73 @@
+{
+ "version": "2.2.4",
+ "songName": "HELLO (BF Mix)",
+ "artist": "OMFG, Ft - MystSketch",
+ "charter": "PotheaadPat",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf",
+   "girlfriend": "gf",
+   "opponent": "omfg",
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "Gradient",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 4,
+   "normal": 6,
+   "hard": 8
+  },
+  "album": "hello",
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.3",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 105,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 6915,
+   "b": 12.1013,
+   "bpm": 105,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 28342.4604,
+   "b": 49.5994,
+   "bpm": 105,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 48006,
+   "b": 84.0106,
+   "bpm": 105,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 72303,
+   "b": 126.5304,
+   "bpm": 105,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 177746,
+   "b": 311.0557,
+   "bpm": 105,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+import flixel.FlxG;
+import funkin.play.character.MultiSparrowCharacter;
+import funkin.play.PlayState;
+
+class CG5Character extends MultiSparrowCharacter 
+{
+	var usesPinkieAnims:Bool = false;
+	
+	function new() 
+	{
+		super('cg5');
+	}
+
+	public function onCreate(event:ScriptEvent) 
+	{
+		super.onCreate(event);
+
+		if (PlayState.instance != null)
+		{
+			// There should be a 1% chance for CG5 to use his Pinkie Pie sprites
+			usesPinkieAnims = FlxG.random.bool(1);
+		}
+	}
+
+	public function onAdd(event:ScriptEvent)
+	{
+		super.onAdd(event);
+
+		// If using the pinkie pie anims.
+		if (usesPinkieAnims)
+		{
+		}
+	}
+
+	override public function playAnimation(name:String, restart:Bool = false, ignoreOther:Bool = false, reversed:Bool = false)
+	{
+		// Use the pinkie pie animation suffix if the chance is right and the animation exists.
+		var animSuffix:String = "";
+		if (usesPinkieAnims && this.hasAnimation(name + "-pinkie")) animSuffix = "-pinkie";
+
+		super.playAnimation(name + animSuffix, restart, ignoreOther, reversed);
+	}
+}

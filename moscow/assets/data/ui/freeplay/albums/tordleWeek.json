@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "name": "Moscow",
+  "artists": ["bbpanzu"],
+  "albumArtAsset": "freeplay/albumRoll/tord_coverart",
+  "albumTitleAsset": "freeplay/albumRoll/logosprite"
+}

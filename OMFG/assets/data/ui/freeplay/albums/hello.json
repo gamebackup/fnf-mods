@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "name": "Hello",
+  "artists": ["OMFG, MystSketch"],
+  "albumArtAsset": "freeplay/albumRoll/hello",
+  "albumTitleAsset": "freeplay/albumRoll/hello-text"
+}

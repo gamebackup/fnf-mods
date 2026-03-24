@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="logosprite.png" width="256" height="256">
+  <SubTexture name="idle0001" x="0" y="0" width="238" height="125" frameX="0" frameY="0" frameWidth="238" frameHeight="125"/>
+  <SubTexture name="idle0002" x="0" y="0" width="238" height="125" frameX="0" frameY="0" frameWidth="238" frameHeight="125"/>
+  <SubTexture name="idle0003" x="0" y="0" width="238" height="125" frameX="0" frameY="0" frameWidth="238" frameHeight="125"/>
+  <SubTexture name="idle0004" x="0" y="0" width="238" height="125" frameX="0" frameY="0" frameWidth="238" frameHeight="125"/>
+  <SubTexture name="switch0005" x="0" y="125" width="238" height="125" frameX="0" frameY="0" frameWidth="238" frameHeight="125"/>
+  <SubTexture name="switch0006" x="0" y="125" width="238" height="125" frameX="0" frameY="0" frameWidth="238" frameHeight="125"/>
+  <SubTexture name="switch0007" x="0" y="125" width="238" height="125" frameX="0" frameY="0" frameWidth="238" frameHeight="125"/>
+  <SubTexture name="switch0008" x="0" y="125" width="238" height="125" frameX="0" frameY="0" frameWidth="238" frameHeight="125"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BFSCARED.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Scawed0000" x="5" y="5" width="480" height="640"/>
+	<SubTexture name="Scawed0001" x="5" y="5" width="480" height="640"/>
+	<SubTexture name="Scawed0002" x="490" y="5" width="480" height="640"/>
+	<SubTexture name="Scawed0003" x="490" y="5" width="480" height="640"/>
+	<SubTexture name="Scawed0004" x="975" y="5" width="480" height="640"/>
+	<SubTexture name="Scawed0005" x="975" y="5" width="480" height="640"/>
+	<SubTexture name="Scawed0006" x="1460" y="5" width="480" height="640"/>
+	<SubTexture name="Scawed0007" x="1460" y="5" width="480" height="640"/>
+</TextureAtlas>

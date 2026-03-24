@@ -1,0 +1,70 @@
+{
+ "version": "1.0.2",
+ "name": "Mix Room (Tutorial)",
+ "props": [
+  {
+   "assetPath": "mixroom",
+   "atlasSettings": null,
+   "name": "mixroom",
+   "position": [-592.5, -340],
+   "scale": 1,
+   "startingAnimation": ""
+  },
+  {
+   "assetPath": "ploosh",
+   "atlasSettings": null,
+   "name": "ploosh",
+   "position": [1078, 186],
+   "zIndex": 2,
+   "scale": 1,
+   "startingAnimation": ""
+  },
+  {
+   "assetPath": "pinkie_pie_ploosh",
+   "atlasSettings": null,
+   "name": "plooshpinkiepie",
+   "zIndex": 1,
+   "position": [978, 226],
+   "scale": 1,
+   "startingAnimation": ""
+  },
+  {
+   "assetPath": "recordroom",
+   "atlasSettings": null,
+   "name": "recordroom",
+   "position": [-591.5, -340],
+   "scale": 1,
+   "startingAnimation": "",
+   "zIndex": 3
+  },
+  {
+   "assetPath": "room lights",
+   "atlasSettings": null,
+   "name": "room lights",
+   "position": [-592, -343],
+   "scale": 1,
+   "startingAnimation": "",
+   "zIndex": 4
+  }
+ ],
+ "characters": {
+  "bf": {
+   "cameraOffsets": [-150, -110],
+   "position": [907.5, 780],
+   "zIndex": 300
+  },
+  "dad": {
+   "cameraOffsets": [0, -50],
+   "position": [310, 563],
+   "scale": 0.9,
+   "zIndex": 2
+  },
+  "gf": {
+   "cameraOffsets": [0, 0],
+   "position": [766.5, 565],
+   "scale": 0.9,
+   "zIndex": 2
+  }
+ },
+ "cameraZoom": 0.85
+}

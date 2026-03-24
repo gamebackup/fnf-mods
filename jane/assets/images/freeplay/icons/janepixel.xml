@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="janepixel.png">
+	<SubTexture name="idle0000" x="0" y="0" width="43" height="39" frameX="0" frameY="0" frameWidth="43" frameHeight="39" />
+	<SubTexture name="confirm0000" x="43" y="0" width="43" height="39" frameX="0" frameY="0" frameWidth="43" frameHeight="39" />
+	<SubTexture name="confirm0001" x="0" y="39" width="43" height="39" frameX="0" frameY="0" frameWidth="43" frameHeight="39" />
+	<SubTexture name="confirm0002" x="43" y="39" width="43" height="39" frameX="0" frameY="0" frameWidth="43" frameHeight="39" />
+</TextureAtlas>

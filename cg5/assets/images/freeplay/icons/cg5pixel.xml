@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="cg5pixel.png">
+	<SubTexture name="idle0000" x="0" y="0" width="33" height="30" frameX="0" frameY="0" frameWidth="33" frameHeight="31" />
+	<SubTexture name="confirm0000" x="33" y="0" width="33" height="30" frameX="0" frameY="0" frameWidth="33" frameHeight="31" />
+	<SubTexture name="confirm0001" x="0" y="30" width="33" height="30" frameX="0" frameY="0" frameWidth="33" frameHeight="31" />
+	<SubTexture name="confirm0002" x="33" y="30" width="33" height="30" frameX="0" frameY="0" frameWidth="33" frameHeight="31" />
+	<SubTexture name="confirm-hold0000" x="33" y="30" width="33" height="30" frameX="0" frameY="0" frameWidth="33" frameHeight="31" />
+</TextureAtlas>

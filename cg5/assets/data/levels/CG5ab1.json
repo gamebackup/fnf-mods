@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "name": "CG5: BONUS SONG 1",
+  "titleAsset": "storymenu/titles/cg5_week1",
+  "visible": false,
+  "props": [
+    {
+      "assetPath": "storymenu/props/Menu_Cg5",
+      "scale": 0.5,
+      "offsets": [0, -120],
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "M CG5 Idle",
+          "frameRate": 24
+        }
+      ]
+    },
+    {
+      "assetPath": "storymenu/props/Menu_BOYFRIEND",
+      "scale": 0.8,
+      "offsets": [108, 39],
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "BF idle dance",
+          "frameRate": 24
+        },
+        {
+          "name": "confirm",
+          "prefix": "BF HEY!!",
+          "frameRate": 24
+        }
+
+      ]
+    },
+    {
+      "assetPath": "storymenu/props/Menu_Or3o",
+      "scale": 0.5,
+      "offsets": [0, -42],
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "M Or3o Idle",
+          "frameRate": 24
+        }
+      ]
+    }
+  ],
+  "background": "#F9CF51",
+  "songs": ["sleep-well-bf"]
+}

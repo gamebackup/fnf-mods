@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "name": "Moscow stage",
+  "cameraZoom": 0.75,
+  "props": [
+    {
+      "zIndex": 10,
+      "position": [-1100, -975],
+      "scale": [1, 1],
+      "name": "sky",
+      "assetPath": "stages/moscow_stage/bg",
+      "scroll": [0.8, 0.8]
+    },
+    {
+      "zIndex": 20,
+      "position": [-1100, -1100],
+      "scale": [1, 1],
+      "name": "house",
+      "assetPath": "stages/moscow_stage/casa",
+      "scroll": [0.9, 1.0]
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [889.5, 885],
+      "cameraOffsets": [-100, -100]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [230, 935],
+      "cameraOffsets": [300, -100]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [0, 0],
+      "position": [651.5, 787]
+    }
+  }
+}

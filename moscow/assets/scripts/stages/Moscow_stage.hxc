@@ -1,0 +1,111 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import flixel.FlxObject;
+import flixel.util.FlxColor;
+
+class Moscow_stage extends Stage {
+
+    public function new() {
+        super('Moscow_stage');
+    }
+
+    var baseX:Float = FlxG.width + 700;                     // posicion inicial X
+    var baseY:Float = 680;                                  // posicion inicial Y
+    var camInitPos:FlxObject = new FlxObject(350, -700);    // punto inicial que forzaremos a la camara a empezar desde alli
+    var camFollowPos = new FlxObject();                     // punto que forzaremos a la camara a seguir
+    var finalY = 425;                                       // coordenada en eje Y final de la intro
+    var pruner:FlxSprite;                                   // sprite de la podadora
+
+    var isFinalPos:bool = false;        // bandera indicando que se llego a la posicion final de la camara en la intro
+    override function buildStage()
+    {
+        super.buildStage();
+
+        pruner = new FlxSprite(baseX, 0);
+        pruner.frames = Paths.getSparrowAtlas("stages/moscow_stage/pruner");
+        pruner.animation.addByPrefix("idle", "lawn", 24, true);
+        pruner.animation.play("idle");
+        pruner.scale.set(1.5, 1.5);
+        pruner.scrollFactor.set(1.2, 1.2);
+        pruner.zIndex = 3000;
+        PlayState.instance.currentStage.add(pruner);
+
+        resetObjects();
+    }
+
+    override function onCountdownStart(event:CountdownScriptEvent) {
+        super.onCountdownStart(event);
+        // hacemos que la camara empieze desde el punto inicial
+        FlxG.camera.follow(camFollowPos);
+        camFollowPos.setPosition(camInitPos.x, camInitPos.y);
+
+        // hacemos invisible el hud y strums
+        PlayState.instance.camHUD.alpha = 0.001;
+        PlayState.instance.playerStrumline.alpha = 0.001;
+        PlayState.instance.opponentStrumline.alpha = 0.001;
+    }
+
+    override function onSongStart(event:ScriptEvent) {
+        super.onSongStart(event);
+
+        FlxTween.tween(camFollowPos, {y: finalY}, 3.0, {
+            ease: FlxEase.expoInOut,
+            onComplete: (_) -> {
+                isFinalPos = true;
+                // hacemos visibles los elementos del hud y strums
+                FlxTween.tween(PlayState.instance.camHUD, {alpha: 1}, 1, {ease: FlxEase.circOut});
+                FlxTween.tween(PlayState.instance.playerStrumline, {alpha: 1}, 1, {ease: FlxEase.circOut});
+                FlxTween.tween(PlayState.instance.opponentStrumline, {alpha: 1}, 1, {ease: FlxEase.circOut});
+            }
+        });
+    }
+
+    override function onStepHit(event:SongTimeScriptEvent) {
+        super.onStepHit(event);
+        var step = event.step;
+        switch (step) {
+            case 608:
+                FlxTween.tween(pruner, {x: -1250}, 11.0);
+            case 1309:
+                FlxG.camera.visible = false;
+                PlayState.instance.camHUD.visible = false;
+        }
+    }
+
+    override function update(e:Float) {
+        super.update(e);
+
+        if (pruner != null) {
+            pruner.y = baseY + FlxG.random.float(-3, 3);
+        }
+    }
+
+    // usamos SongRetry para reiniciar el estado de los objetos alterados
+    override function onSongRetry(event:SongRetryEvent) {
+        super.onSongRetry(event);
+        resetObjects();
+    }
+
+    public function resetObjects() {
+        // reiniciamos banderas
+        isFinalPos = false;
+
+        // cancelamos tweeens que se estuvieran ejecutando
+        FlxTween.cancelTweensOf(pruner);
+        FlxTween.cancelTweensOf(camFollowPos);
+        FlxTween.cancelTweensOf(PlayState.instance.camHUD);
+        FlxTween.cancelTweensOf(PlayState.instance.playerStrumline);
+        FlxTween.cancelTweensOf(PlayState.instance.opponentStrumline);
+
+        // reiniciamos el estado de los objetos modificados
+        pruner.x = baseX;
+        PlayState.instance.camHUD.alpha = 0.001;
+        PlayState.instance.playerStrumline.alpha = 0.001;
+        PlayState.instance.opponentStrumline.alpha = 0.001;
+        camFollowPos.setPosition(camInitPos.x, camInitPos.y);
+    }
+}

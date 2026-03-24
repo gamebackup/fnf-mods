@@ -1,0 +1,312 @@
+{
+	"renderType": "multisparrow",
+	"offsets": [
+		17,
+		25
+	],
+	"applyStageMatrix": false,
+	"startingAnimation": "idle",
+	"death": {
+		"cameraOffsets": [
+			-73,
+			42
+		]
+	},
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "bf"
+	},
+	"assetPath": "characters/ULTIMATEBF",
+	"version": "1.0.0",
+	"danceEvery": 2,
+	"scale": 1,
+	"name": "Boyfriend",
+	"flipX": true,
+	"cameraOffsets": [
+		-18,
+		36
+	],
+	"isPixel": false,
+	"singTime": 8,
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"swfMode": true,
+		"useRenderTexture": false,
+		"cacheOnLoad": false,
+		"filterQuality": 1
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [
+				1,
+				1,
+				2,
+				2,
+				3,
+				3,
+				4,
+				4,
+				0,
+				0
+			],
+			"prefix": "Boyfriend_dance_Idle",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [
+				0,
+				0,
+				1,
+				1,
+				2,
+				2
+			],
+			"prefix": "Boyfriend_Sing_left",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				1,
+				2
+			],
+			"frameIndices": [
+				0,
+				0,
+				1,
+				1,
+				2,
+				2
+			],
+			"prefix": "Boyfriend_Sing_down",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				1,
+				-3
+			],
+			"frameIndices": [
+				0,
+				0,
+				1,
+				1,
+				2,
+				2
+			],
+			"prefix": "Boyfriend_Sing_up",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [
+				0,
+				0,
+				1,
+				1,
+				2,
+				2
+			],
+			"prefix": "Boyfriend_Sing_right",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Boyfriend_Miss_left",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Boyfriend_Miss_down",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				1,
+				-2
+			],
+			"frameRate": 24,
+			"prefix": "Boyfriend_Miss_up",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Boyfriend_Miss_right",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [
+				0,
+				0,
+				2,
+				2,
+				1,
+				1
+			],
+			"prefix": "Boyfriend_Sing_hey",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "hey",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				-1
+			],
+			"prefix": "BFDIESfx",
+			"flipX": false,
+			"animType": "framelabel",
+			"name": "firstDeath",
+			"looped": false,
+			"flipY": false,
+			"assetPath": "characters/BFDIES",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				-1
+			],
+			"prefix": "BFDIESloopfx",
+			"flipX": false,
+			"animType": "framelabel",
+			"looped": true,
+			"name": "deathLoop",
+			"flipY": false,
+			"assetPath": "characters/BFDIES",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				-1
+			],
+			"prefix": "BFDIESendfx",
+			"flipX": false,
+			"animType": "framelabel",
+			"name": "deathConfirm",
+			"looped": false,
+			"flipY": false,
+			"assetPath": "characters/BFDIES",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "Cheer",
+			"flipX": false,
+			"animType": "framelabel",
+			"name": "cheer",
+			"looped": false,
+			"flipY": false,
+			"assetPath": "characters/Cheer",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "Scawed",
+			"flipX": false,
+			"animType": "framelabel",
+			"name": "scared",
+			"looped": false,
+			"flipY": false,
+			"assetPath": "characters/BFSCARED",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-3,
+				-65
+			],
+			"prefix": "fake out death BF",
+			"looped": false,
+			"flipX": false,
+			"animType": "symbol",
+			"name": "fakeoutDeath",
+			"flipY": false,
+			"assetPath": "shared:characters/bfFakeOut",
+			"frameRate": 24
+		}
+	]
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="difficulty_bar.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.coroducts/animate.html -->
+	<SubTexture name="easy" x="0" y="0" width="147" height="42" frameX="0" frameY="-1" frameWidth="162" frameHeight="44"/>
+	<SubTexture name="normal" x="0" y="42" width="147" height="42" frameX="0" frameY="-1" frameWidth="162" frameHeight="44"/>
+	<SubTexture name="hard" x="0" y="84" width="147" height="42" frameX="0" frameY="-1" frameWidth="162" frameHeight="44"/>
+	<SubTexture name="erect" x="0" y="126" width="147" height="42" frameX="0" frameY="-1" frameWidth="162" frameHeight="44"/>
+	<SubTexture name="nightmare" x="0" y="168" width="162" height="44"/>
+</TextureAtlas>

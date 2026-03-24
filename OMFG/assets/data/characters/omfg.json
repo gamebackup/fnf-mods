@@ -1,0 +1,110 @@
+{
+	"renderType": "sparrow",
+	"version": "1.0.1",
+	"offsets": [
+		30,
+		-45
+	],
+	"danceEvery": 2,
+	"applyStageMatrix": false,
+	"scale": 0.8,
+	"name": "omfg",
+	"cameraOffsets": [
+		120,
+		-20
+	],
+	"flipX": false,
+	"isPixel": false,
+	"singTime": 4,
+	"startingAnimation": "idle",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"id": "omfg",
+		"flipX": false
+	},
+	"assetPath": "characters/omfg",
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false,
+		"swfMode": true
+	},
+	"animations": [
+		{
+			"offsets": [
+				40,
+				-50
+			],
+			"frameIndices": [],
+			"prefix": "omfgidle",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": true,
+			"name": "idle",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				109,
+				1
+			],
+			"frameIndices": [],
+			"prefix": "omfgup",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				134,
+				-56
+			],
+			"frameIndices": [],
+			"prefix": "omfgdown",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				98,
+				-52
+			],
+			"frameIndices": [],
+			"prefix": "omfgright",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				170,
+				-30
+			],
+			"frameIndices": [],
+			"prefix": "omfgleft",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"flipY": false,
+			"frameRate": 24
+		}
+	]
+}

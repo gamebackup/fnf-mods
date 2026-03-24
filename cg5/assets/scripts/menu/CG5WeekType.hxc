@@ -1,0 +1,102 @@
+import flixel.FlxG;
+import funkin.Paths;
+import funkin.ui.freeplay.FreeplayState;
+import funkin.ui.freeplay.SongMenuItem;
+import funkin.modding.module.Module;
+import StringTools;
+
+// Script that adds a custom 'CG5 WEEK' sprite to the capsules
+// Code 'borrowed' from Comedy Lost hope they don't mind hehe
+
+// I didn't mind >:)
+
+// Hey guys it's me Ink
+
+class CG5WeekType extends Module
+{
+	public function new()
+	{
+		super('CG5WeekType');
+	}
+
+	var lessonOneSongs:Array<String> = ['tutorial-remix', 'gimme-a-break', 'man-on-stilts', 'knock-knock'];
+	var changedCapsules:Array<SongMenuItem> = [];
+
+	override function onSubStateOpenBegin(event)
+	{
+		super.onSubStateOpenBegin(event);
+		if (event.targetState is FreeplayState)
+		{
+			if ((changedCapsules?.length ?? 1) > 0) changedCapsules = [];
+		}
+	}
+
+	public function onDifficultySwitch(event:CapsuleScriptEvent):Void
+	{
+		super.onDifficultySwitch(event);
+
+		while (changedCapsules?.length > 0)
+		{
+			var capsule = changedCapsules.shift();
+
+			if (StringTools.contains(capsule?.weekType?.graphic?.key,
+				'freeplay/freeplayCapsule/CG5WeekType'))
+				resetCapsules(capsule);
+		}
+
+		if (changedCapsules?.length != 0) changedCapsules = [];
+
+		var filteredCapsules:Array<SongMenuItem> =
+			FlxG.state.subState.grpCapsules.members.filter(function(cap:SongMenuItem)
+			{
+				return cap != null
+					&& cap.alive
+					&& cap.freeplayData?.data != null
+					&& lessonOneSongs.contains(cap.freeplayData.data.id);
+			});
+
+		for (capsule in filteredCapsules)
+		{
+			if (capsule == null || !capsule.alive) continue;
+
+			changedCapsules.push(capsule);
+			customWeekDisplay(capsule);
+		}
+	}
+
+	function customWeekDisplay(cap:SongMenuItem)
+	{
+		if (cap?.freeplayData == null) return;
+
+		cap.weekType.frames =
+			Paths.getSparrowAtlas('freeplay/freeplayCapsule/CG5WeekType');
+		cap.weekType.visible = true;
+		cap.weekType.animation.addByPrefix('CG5 WEEK', 'CG5 WEEK text', 24, true);
+		cap.weekType.animation.play('CG5 WEEK', true);
+
+		cap.weekNumbers[0].visible = true;
+		cap.weekNumbers[0].digit = Std.int(Math.abs(1));
+		cap.weekNumbers[0].offset.x = -48;
+	}
+
+	function resetCapsules(cap:SongMenuItem)
+	{
+		if (cap?.freeplayData == null) return;
+
+		cap.weekType.frames =
+			Paths.getSparrowAtlas('freeplay/freeplayCapsule/weektypes');
+		cap.weekType.animation.addByPrefix(
+			'WEEK',
+			'WEEK text instance 1',
+			24,
+			false
+		);
+		cap.weekType.animation.addByPrefix(
+			'WEEKEND',
+			'WEEKEND text instance 1',
+			24,
+			false
+		);
+		cap.checkWeek(cap.freeplayData.data?.id);
+	}
+}

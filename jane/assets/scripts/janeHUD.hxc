@@ -1,0 +1,168 @@
+import funkin.modding.module.Module;
+import funkin.modding.IPlayStateScriptedClass;
+import funkin.util.Constants;
+import funkin.graphics.FunkinSprite;
+import funkin.play.PlayState;
+import funkin.play.scoring.Scoring;
+import funkin.Preferences;
+import funkin.Conductor;
+import funkin.Paths;
+import funkin.Highscore;
+import flixel.FlxG;
+import flixel.text.FlxText;
+import flixel.text.FlxTextBorderStyle;
+import flixel.graphics.frames.FlxAtlasFrames;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import flixel.util.FlxSave;
+import openfl.utils.Assets;
+import flixel.FlxSprite;
+import Type;
+import funkin.util.Constants;
+
+class janeHUD extends Module implements IPlayStateScriptedClass {
+	
+	var scoreText:FlxText;
+	var composeText:FlxText;
+
+	var songText:FlxText;
+	var ui_bottom;
+	var ui_top;
+	var notch_bg;
+	var notch_bar;
+	var notch_spr;
+
+	override function onCountdownStart(event){
+        super.onCountdownStart(event);
+		initUI();
+	}
+
+	function initUI(){
+		var stateP = PlayState.instance;
+        if(stateP == null) return;
+		stateP.scoreText.visible = false;
+		stateP.scoreText.active = false;
+		
+		ui_top = new FlxSprite(11, -16).loadGraphic(Paths.image('ui/HUD_OVERLAY_TOP'));
+		ui_top.scale.set(0.64,0.64);
+		ui_top.cameras = [stateP.camHUD];
+		ui_top.updateHitbox();
+		ui_top.screenCenter("X");
+		stateP.add(ui_top);
+
+		ui_bottom = new FlxSprite(275, FlxG.height - 110).loadGraphic(Paths.image('ui/HUD_OVERLAY_BOTTOM'));
+		ui_bottom.cameras = [stateP.camHUD];
+		ui_bottom.scale.set(0.64,0.64);
+		ui_bottom.updateHitbox();
+		ui_bottom.screenCenter("X");
+		stateP.add(ui_bottom);
+
+		scoreText = new FlxText(635, 678);
+		scoreText.setFormat(Paths.font("GN-Kin-iro_SansSerif.ttf"), 25, 0xFFFFFFFF, "left", FlxTextBorderStyle.OUTLINE, 0xFF6179BA);
+		scoreText.cameras = [stateP.camHUD];
+		scoreText.borderSize = 0;
+		scoreText.letterSpacing = 12;
+		scoreText.color = 0xFF6179BA;
+		scoreText.text = '' + stateP.songScore;
+		stateP.add(scoreText);
+		
+
+		songText = new FlxText(105, 0);
+		songText.setFormat(Paths.font("GN-Kin-iro_SansSerif.ttf"), 40, 0xFFFFFFFF, "left", FlxTextBorderStyle.OUTLINE, 0xFF6179BA);
+		songText.cameras = [stateP.camHUD];
+		songText.borderSize = 0;
+		songText.color = 0xFF6179BA;
+		songText.letterSpacing = 12;
+		songText.text = '' + stateP.currentChart.songName.toLowerCase();
+		stateP.add(songText);
+
+		composeText = new FlxText(770, 0);
+		composeText.setFormat(Paths.font("GN-Kin-iro_SansSerif.ttf"), 40, 0xFFFFFFFF, "left", FlxTextBorderStyle.OUTLINE, 0xFF6179BA);
+		composeText.cameras = [stateP.camHUD];
+		composeText.borderSize = 0;
+		composeText.color = 0xFF6179BA;
+		composeText.letterSpacing = 12;
+
+		composeText.text = stateP.currentChart.songArtist.toLowerCase();
+		stateP.add(composeText);
+
+		notch_bg = new FlxSprite(480, 0).loadGraphic(Paths.image('ui/NOTCH-FRAME'));
+		notch_bg.scale.set(0.64,0.64);
+		notch_bg.cameras = [stateP.camHUD];
+		notch_bg.updateHitbox();
+		notch_bg.screenCenter("X");
+		stateP.add(notch_bg);
+
+		notch_bar = new FlxSprite(566, 0);
+		notch_bar.frames = Paths.getSparrowAtlas('ui/difficulty_bar');
+		notch_bar.animation.addByPrefix('bump', stateP.currentDifficulty, 24);
+		notch_bar.cameras = [stateP.camHUD];
+		notch_bar.animation.play('bump');
+		notch_bar.scale.set(0.64,0.64);
+		notch_bar.updateHitbox();
+		notch_bar.screenCenter("X");
+		stateP.add(notch_bar);
+
+		notch_spr = new FlxSprite(490, -15);
+		notch_spr.frames = Paths.getSparrowAtlas('ui/difficulties');
+		notch_spr.animation.addByPrefix('bump', stateP.currentDifficulty, 24);
+		notch_spr.cameras = [stateP.camHUD];
+		notch_spr.animation.play('bump');
+		notch_spr.scale.set(0.64,0.64);
+		notch_spr.updateHitbox();
+		notch_spr.screenCenter("X");
+		stateP.add(notch_spr);
+
+		stateP.refresh();
+	}
+	var stateP = PlayState.instance;
+	function onUpdate(elapsed){
+		super.onUpdate(elapsed);
+		// trace(stateP.currentDifficulty);
+		Constants.STRUMLINE_Y_OFFSET = 25;
+		updateScoreText();
+	}
+	override function onNoteHit(event){
+		updateScoreText();
+		super.onNoteHit(event);
+	}
+	function updateScoreText(){
+		var stateP = PlayState.instance;
+		if(stateP == null) return;
+
+		var desiredText:String = "" + stateP.songScore;
+		if(scoreText != null) scoreText.text = desiredText;
+	}
+	static public function restartPlayState(stateP){
+		PlayState.instance.needsReset = true;
+		stateP.close();
+	}
+	override function destroy(){
+		super.destroy();
+		Constants.STRUMLINE_Y_OFFSET = 0;
+
+	}
+	override function onSongRetry(event:ScriptEvent) {
+		super.onSongRetry(event);
+
+		scoreText.destroy();
+		scoreText = null;
+
+		composeText.destroy();
+		composeText = null;
+		
+		ui_bottom.destroy();
+		ui_bottom = null;
+
+		ui_top.destroy();
+		ui_top = null;
+
+		notch_bar.destroy();
+		notch_bar = null;
+
+		notch_spr.destroy();
+		notch_spr = null;
+		
+		updateScoreText();
+	}
+}

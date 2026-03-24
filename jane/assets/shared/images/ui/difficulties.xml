@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="difficulties.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="easy" x="0" y="0" width="284" height="111" frameX="-12" frameY="-30" frameWidth="297" frameHeight="142"/>
+	<SubTexture name="normal" x="284" y="0" width="290" height="98" frameX="-7" frameY="-44" frameWidth="297" frameHeight="142"/>
+	<SubTexture name="hard" x="574" y="0" width="248" height="108" frameX="-26" frameY="-29" frameWidth="297" frameHeight="142"/>
+	<SubTexture name="erect" x="0" y="111" width="278" height="95" frameX="-12" frameY="-47" frameWidth="297" frameHeight="142"/>
+	<SubTexture name="nightmare" x="278" y="111" width="295" height="141" frameX="0" frameY="0" frameWidth="297" frameHeight="142"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="healthbarOverlay.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="HealthbarOverlay0000" x="0" y="0" width="2135" height="411"/>
+	<SubTexture name="HealthbarOverlay0001" x="0" y="0" width="2135" height="411"/>
+	<SubTexture name="HealthbarOverlay0002" x="0" y="0" width="2135" height="411"/>
+	<SubTexture name="HealthbarOverlay0003" x="0" y="411" width="2054" height="353" frameX="-41" frameY="-26" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0004" x="0" y="411" width="2054" height="353" frameX="-41" frameY="-26" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0005" x="0" y="411" width="2054" height="353" frameX="-41" frameY="-26" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0006" x="0" y="764" width="2075" height="365" frameX="-30" frameY="-21" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0007" x="0" y="764" width="2075" height="365" frameX="-30" frameY="-21" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0008" x="0" y="764" width="2075" height="365" frameX="-30" frameY="-21" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0009" x="0" y="1129" width="2084" height="372" frameX="-26" frameY="-18" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0010" x="0" y="1129" width="2084" height="372" frameX="-26" frameY="-18" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0011" x="0" y="1129" width="2084" height="372" frameX="-26" frameY="-18" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0012" x="0" y="1501" width="2084" height="372" frameX="-26" frameY="-18" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0013" x="0" y="1501" width="2084" height="372" frameX="-26" frameY="-18" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0014" x="0" y="1501" width="2084" height="372" frameX="-26" frameY="-18" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0015" x="0" y="1873" width="2084" height="372" frameX="-26" frameY="-18" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0016" x="0" y="1873" width="2084" height="372" frameX="-26" frameY="-18" frameWidth="2135" frameHeight="411"/>
+	<SubTexture name="HealthbarOverlay0017" x="0" y="1873" width="2084" height="372" frameX="-26" frameY="-18" frameWidth="2135" frameHeight="411"/>
+</TextureAtlas>

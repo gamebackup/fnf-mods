@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "name": "CG5: WEEK 1",
+  "titleAsset": "storymenu/titles/cg5_week1",
+  "props": [
+    {
+      "assetPath": "storymenu/props/Menu_Cg5",
+      "scale": 0.5,
+      "offsets": [0, -120],
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "M CG5 Idle",
+          "frameRate": 24
+        }
+      ]
+    },
+    {
+      "assetPath": "storymenu/props/Menu_BOYFRIEND",
+      "scale": 0.8,
+      "offsets": [108, 39],
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "BF idle dance",
+          "frameRate": 24
+        },
+        {
+          "name": "confirm",
+          "prefix": "BF HEY!!",
+          "frameRate": 24
+        }
+
+      ]
+    },
+    {
+      "assetPath": "storymenu/props/Menu_Or3o",
+      "scale": 0.5,
+      "offsets": [0, -42],
+      "animations": [
+        {
+          "name": "danceLeft",
+          "prefix": "M Or3o Idle",
+          "frameIndices": [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+        },
+        {
+          "name": "danceRight",
+          "prefix": "M Or3o Idle",
+          "frameIndices": [
+            15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+          ]
+        }
+      ]
+    }
+  ],
+  "background": "#F9CF51",
+  "songs": ["tutorial-remix", "gimme-a-break", "man-on-stilts", "knock-knock"]
+}

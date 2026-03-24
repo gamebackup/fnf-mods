@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="notes.png">
+	<!-- Created with Adobe Animate version 24.0.4.28 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="noteDown0000" x="10" y="10" width="163" height="154"/>
+	<SubTexture name="noteUp0000" x="253" y="10" width="163" height="154"/>
+	<SubTexture name="noteLeft0000" x="10" y="244" width="154" height="162"/>
+	<SubTexture name="noteRight0000" x="244" y="244" width="154" height="162"/>
+</TextureAtlas>

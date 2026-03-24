@@ -1,0 +1,183 @@
+{
+	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "CG5",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/CG5",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "cg5"
+	},
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"swfMode": true,
+		"useRenderTexture": false,
+		"cacheOnLoad": false,
+		"filterQuality": 1
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "CG5 Idle",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-2,
+				6
+			],
+			"frameRate": 24,
+			"prefix": "CG5 Hey!",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "hey"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-2,
+				17
+			],
+			"frameRate": 24,
+			"prefix": "CG5 Sing Note UP",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				34,
+				-74
+			],
+			"frameRate": 24,
+			"prefix": "CG5 Sing Note DOWN",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				49,
+				-46
+			],
+			"frameRate": 24,
+			"prefix": "CG5 Sing Note LEFT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				37,
+				-13
+			],
+			"frameRate": 24,
+			"prefix": "CG5 Sing Note RIGHT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "pinkieIdle",
+			"animType": "framelabel",
+			"flipX": false,
+			"name": "idle-pinkie",
+			"flipY": false,
+			"assetPath": "characters/pinkiePieSecret",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				25,
+				33
+			],
+			"prefix": "pinkieUp",
+			"animType": "framelabel",
+			"flipX": false,
+			"name": "singUP-pinkie",
+			"flipY": false,
+			"assetPath": "characters/pinkiePieSecret",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				24,
+				-141
+			],
+			"prefix": "pinkieDown",
+			"animType": "framelabel",
+			"flipX": false,
+			"name": "singDOWN-pinkie",
+			"flipY": false,
+			"assetPath": "characters/pinkiePieSecret",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				33,
+				14
+			],
+			"prefix": "pinkeLeft",
+			"animType": "framelabel",
+			"flipX": false,
+			"name": "singLEFT-pinkie",
+			"flipY": false,
+			"assetPath": "characters/pinkiePieSecret",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-109,
+				-33
+			],
+			"prefix": "pinkieRight",
+			"animType": "framelabel",
+			"flipX": false,
+			"name": "singRIGHT-pinkie",
+			"flipY": false,
+			"assetPath": "characters/pinkiePieSecret",
+			"frameRate": 24
+		}
+	]
+}

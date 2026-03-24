@@ -1,0 +1,31 @@
+import funkin.modding.module.Module;
+import flixel.FlxG;
+import funkin.ui.freeplay.FreeplayState;
+
+class FreeplayCG5EditionOstTextModule extends Module
+{
+	public function new()
+	{
+		super('FreeplayCG5EditionOstText',999999, {state:FreeplayState});  //Thanks to QT: Rewired for the code :D
+	}
+
+	override function onUpdate(event)
+	{
+		super.onUpdate(event);
+
+		var sub = FlxG.state.subState;
+		if (sub == null)
+			return;
+
+		var capsule = sub.grpCapsules.members[sub.curSelected];
+		var data = capsule.freeplayData;
+		var id = (data != null) ? data.levelId : null;
+
+		if (sub.ostName != null)
+			sub.ostName.text = (id == "CG5a1" || id == "CG5ab1") ? "CG5 EDITION" : "OFFICIAL OST";
+
+		if (sub.instSelectMenu != null)
+		{
+	}
+}
+}

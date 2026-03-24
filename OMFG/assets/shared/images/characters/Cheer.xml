@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Cheer.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cheer0000" x="5" y="5" width="480" height="640"/>
+	<SubTexture name="Cheer0001" x="5" y="5" width="480" height="640"/>
+	<SubTexture name="Cheer0002" x="490" y="5" width="480" height="640"/>
+	<SubTexture name="Cheer0003" x="490" y="5" width="480" height="640"/>
+	<SubTexture name="Cheer0004" x="975" y="5" width="480" height="640"/>
+	<SubTexture name="Cheer0005" x="975" y="5" width="480" height="640"/>
+</TextureAtlas>

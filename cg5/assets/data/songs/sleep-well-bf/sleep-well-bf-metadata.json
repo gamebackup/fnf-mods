@@ -1,0 +1,49 @@
+{
+ "version": "2.2.4",
+ "songName": "Sleep Well (BF Cover)",
+ "artist": "CG5 (.feat Yharoa)",
+ "charter": "Hasuchila",
+ "offsets": {
+  "instrumental": 52,
+  "vocals": {
+   "bf-cg5": 52,
+   "cg5": 52
+  }
+ },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf-cg5",
+   "girlfriend": "or3o",
+   "opponent": "cg5",
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "mixRoom",
+  "noteStyle": "funkincg5",
+  "ratings": {
+   "easy": 8,
+   "normal": 9,
+   "hard": 10
+  },
+  "album": "cg5sleepwell",
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.3",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 162,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "name": "Boyfriend (CG5)",
+  "renderType": "multisparrow",
+  "assetPath": "characters/BOYFRIENDcg5",
+  "flipX": true,
+  "offsets": [17, 14],
+  "cameraOffsets": [-18, 36],
+  "death": {
+    "cameraOffsets": [-73, 42]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "offsets": [-5, 0],
+      "prefix": "BF idle dance"
+    },
+    {
+      "name": "singLEFT",
+      "offsets": [5, -6],
+      "prefix": "BF NOTE LEFT0",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    },
+    {
+      "name": "singLEFT-end",
+      "offsets": [5, -6],
+      "prefix": "BF NOTE LEFT0",
+      "frameIndices": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    },
+    {
+      "name": "singDOWN",
+      "offsets": [-20, -51],
+      "prefix": "BF NOTE DOWN0",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    },
+    {
+      "name": "singDOWN-end",
+      "offsets": [-20, -51],
+      "prefix": "BF NOTE DOWN0",
+      "frameIndices": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    },
+    {
+      "name": "singUP",
+      "offsets": [-46, 27],
+      "prefix": "BF NOTE UP0",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    },
+    {
+      "name": "singUP-end",
+      "offsets": [-46, 27],
+      "prefix": "BF NOTE UP0",
+      "frameIndices": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    },
+    {
+      "name": "singRIGHT",
+      "offsets": [-48, -7],
+      "prefix": "BF NOTE RIGHT0",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    },
+    {
+      "name": "singRIGHT-end",
+      "offsets": [-48, -7],
+      "prefix": "BF NOTE RIGHT0",
+      "frameIndices": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    },
+    {
+      "name": "singLEFTmiss",
+      "offsets": [7, 19],
+      "prefix": "BF NOTE LEFT MISS"
+    },
+    {
+      "name": "singDOWNmiss",
+      "offsets": [-15, -19],
+      "prefix": "BF NOTE DOWN MISS"
+    },
+    {
+      "name": "singUPmiss",
+      "offsets": [-46, 27],
+      "prefix": "BF NOTE UP MISS"
+    },
+    {
+      "name": "singRIGHTmiss",
+      "offsets": [-44, 22],
+      "prefix": "BF NOTE RIGHT MISS"
+    },
+    {
+      "name": "hey",
+      "prefix": "BF HEY!!"
+    },
+    {
+      "assetPath": "characters/BOYFRIEND_DEADcg5",
+      "name": "firstDeath",
+      "prefix": "BF dies",
+      "offsets": [37, 11]
+    },
+    {
+      "assetPath": "characters/BOYFRIEND_DEADcg5",
+      "name": "deathLoop",
+      "prefix": "BF Dead Loop",
+      "looped": true,
+      "offsets": [37, 5]
+    },
+    {
+      "assetPath": "characters/BOYFRIEND_DEADcg5",
+      "name": "deathConfirm",
+      "prefix": "BF Dead confirm",
+      "offsets": [37, 69]
+    }
+  ]
+}
