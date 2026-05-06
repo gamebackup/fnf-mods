@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sarventeDialogueDefault.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sarvente dialogue default instance 10000" x="5" y="5" width="363" height="458"/>
+</TextureAtlas>

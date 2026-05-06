@@ -1,0 +1,21 @@
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.save.Save;
+
+class HeadacheErectSong extends Song
+{
+  function new()
+  {
+    super('headache', {variation: 'erect'});
+  }
+
+  override public function isSongNew(currentDifficulty:String, currentVariation:String):Bool
+  {
+    if (currentVariation == 'erect')
+    {
+      return !Save.instance.hasBeatenSong(this.id, Constants.DEFAULT_DIFFICULTY_LIST_ERECT);
+    }
+
+    return super.isSongNew(currentDifficulty, currentVariation);
+  }
+}

@@ -1,0 +1,53 @@
+import funkin.modding.module.Module;
+import funkin.play.PlayState;
+import funkin.graphics.FunkinSprite;
+import funkin.Conductor;
+import funkin.Highscore;
+import funkin.util.Constants;
+import funkin.data.story.level.LevelRegistry;
+import flixel.group.FlxTypedSpriteGroup;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+
+using StringTools;
+
+class HazierWorldCombo extends Module
+{
+  /**
+   * The color used by the health bar when Garcello is in the mix.
+   */
+  public static final COLOR_HEALTH_BAR_PURPLE:FlxColor = 0xFF8E40A5;
+
+  function new()
+  {
+    super('HazierWorldCombo', 0, {state: PlayState});
+  }
+
+  override public function onCountdownStart(event:CountdownScriptEvent):Void
+  {
+    super.onCountdownStart(event);
+
+    if (PlayState.instance.healthBar != null && (PlayState.instance?.currentStage?.getDad()?.characterId ?? '').startsWith('garcello'))
+    {
+      PlayState.instance.healthBar.createFilledBar(COLOR_HEALTH_BAR_PURPLE, Constants.COLOR_HEALTH_BAR_GREEN);
+      PlayState.instance.healthBar.updateBar();
+    }
+  }
+
+  override public function onSongLoaded(event:SongLoadScriptEvent):Void
+  {
+    var hazyweek = LevelRegistry.instance.fetchEntry('weekg').getSongs(); // get all songs on the garcello week
+    if (!hazyweek.contains(PlayState.instance.currentSong.id)) return; // check to see if were playing a garcello song
+
+    if (PlayState.instance.currentStage?.getGirlfriend() == null) return; // if the stage is null or gf is not in the stage, we dont do anything
+
+    PlayState.instance.comboPopUps.cameras = null;
+    PlayState.instance.comboPopUps.offsets = [
+      PlayState.instance.currentStage.getGirlfriend().x,
+      PlayState.instance.currentStage.getGirlfriend().y
+    ];
+    PlayState.instance.comboPopUps.memberAdded.add(function(combo) {
+      combo.scrollFactor.set(1, 1);
+    });
+  }
+}

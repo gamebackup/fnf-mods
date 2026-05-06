@@ -1,0 +1,199 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 2.0,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "nervesdialouge",
+    "fadeTime": 2.0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "garcello",
+      "speakerAnimation": "cough",
+      "box": "garcello",
+      "boxAnimation": "enter",
+
+      "text": [
+        "*COUGH* Heh... Looks like you beat me. You're not half bad at this!"
+      ]
+    },
+    {
+      "speaker": "pico",
+      "speakerAnimation": "questioning",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": [
+        "Jeez, you look like shit now.. I swear you were fine like.. a minute ago..."
+      ]
+    },
+    {
+      "speaker": "pico",
+      "speakerAnimation": "questioning",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["You sure that thing's safe?"]
+    },
+    {
+      "speaker": "garcello",
+      "speakerAnimation": "one more",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": [
+        "Well, as safe as a cigarette can be I guess. Not like i can *COUGH* get off of em-"
+      ]
+    },
+    {
+      "speaker": "garcello",
+      "speakerAnimation": "offer",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["Well, anyways. You earned these. Have fun with em'"]
+    },
+    {
+      "speaker": "pico",
+      "speakerAnimation": "uneasy",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["Actually.... Maybe one more match?"]
+    },
+    {
+      "speaker": "pico",
+      "speakerAnimation": "showoff",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": [
+        "Plus, I got a pack of my own, snagged these from a locker when I was little.."
+      ]
+    },
+    {
+      "speaker": "garcello",
+      "speakerAnimation": "concerned",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["...Is that a blunt?"]
+    },
+    {
+      "speaker": "pico",
+      "speakerAnimation": "showoff",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": [
+        "Hell yeah it is! And they're totally good for you! My buddies call it a medicinal herb, It's awesome."
+      ]
+    },
+    {
+      "speaker": "pico",
+      "speakerAnimation": "huff",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["*huff*"]
+    },
+    {
+      "speaker": "pico",
+      "speakerAnimation": "high",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["Yeeeeeeahh.. THIS is the shit, man"]
+    },
+    {
+      "speaker": "nene",
+      "speakerAnimation": "pissed",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["Hey! I said I wanted one too, asshole!"]
+    },
+    {
+      "speaker": "pico",
+      "speakerAnimation": "cocky",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": [
+        "Nah... We're doin' double or nothing! I get TWO packs if i beat you this time!"
+      ]
+    },
+    {
+      "speaker": "garcello",
+      "speakerAnimation": "thought",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": [
+        "(Two..? I can't even get this one pack off my hands... how the hell am i gonna get two?)"
+      ]
+    },
+    {
+      "speaker": "garcello",
+      "speakerAnimation": "think",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["(You know what... I'll go along with it, he's high)"]
+    },
+    {
+      "speaker": "garcello",
+      "speakerAnimation": "weak",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["Sounds cool to me... *COUGH* I..I've been having fun atleast"]
+    },
+    {
+      "speaker": "pico",
+      "speakerAnimation": "cocky",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["Siiiickk"]
+    },
+    {
+      "speaker": "garcello",
+      "speakerAnimation": "one more",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["Maybe just one more of these to get my nerves straight..."]
+    },
+    {
+      "speaker": "garcello",
+      "speakerAnimation": "fine",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": ["I'll be fine..."]
+    },
+    {
+      "speaker": "pico",
+      "speakerAnimation": "standstill",
+      "box": "garcello",
+      "boxAnimation": "speaking",
+
+      "text": [
+        "Oh yeah, could you stand really still for me? I wanna try something..."
+      ]
+    }
+  ]
+}

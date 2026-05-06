@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="seleverpixel.png">
+	<SubTexture name="confirm0000" x="1" y="1" width="39" height="39" frameX="0" frameY="0" frameWidth="39" frameHeight="39" />
+	<SubTexture name="confirm0001" x="40" y="1" width="39" height="39" frameX="0" frameY="0" frameWidth="39" frameHeight="39" />
+	<SubTexture name="confirm0002" x="1" y="40" width="39" height="39" frameX="0" frameY="0" frameWidth="39" frameHeight="39" />
+	<SubTexture name="confirm0003" x="40" y="40" width="39" height="39" frameX="0" frameY="0" frameWidth="39" frameHeight="39" />
+	<SubTexture name="idle0000" x="1" y="1" width="39" height="39" frameX="0" frameY="0" frameWidth="39" frameHeight="39" />
+	<SubTexture name="idle-hold0000" x="40" y="40" width="39" height="39" frameX="0" frameY="0" frameWidth="39" frameHeight="39" />
+</TextureAtlas>

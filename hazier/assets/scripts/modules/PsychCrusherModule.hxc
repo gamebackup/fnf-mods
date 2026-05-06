@@ -1,0 +1,290 @@
+import funkin.play.PlayState;
+import funkin.modding.events.ScriptEvent;
+import funkin.modding.events.UpdateScriptEvent;
+import funkin.modding.module.Module;
+import funkin.play.scoring.Scoring;
+import funkin.Highscore;
+import flixel.math.FlxMath;
+import flixel.util.FlxTimer;  // <-- Add this line
+import flixel.text.FlxBitmapText;
+import flixel.util.FlxStringUtil;
+import flixel.FlxG;
+import funkin.Preferences;
+
+class CrushersUIScoreTextModule extends Module
+{
+    var BRACKETS:Array<String> = ['', ''];
+    var RANK_BRACKETS:Array<String> = [' (', ')'];
+    var EXTRA_RANK_BRACKETS:Array<String> = [' [', ']'];
+    var TEXT_SPLITTER:String = ': ';
+    var ACCURACY_SIGN:String = '%';
+    var SHOW_LAST_BRACKET_ON_LAST_ELEMENT:Bool = false;
+    var TEXT_UNDER_ICONS:Bool = false;
+
+    var RATING_TEXTS:Array<Array<String>> = [
+        ['PERFECT_GOLD', 'Perfect!! [GOLD]'],
+        ['PERFECT',      'Perfect!!'],
+        ['EXCELLENT',    'Sick!'],
+        ['GREAT',        'Great'],
+        ['GOOD',         'Good'],
+        ['SHIT',         'Shit'],
+        [null,           '?']
+    ];
+
+    var PSYCH_SEPARATOR:String = ' | ';
+    var PSYCH_SCORE_PREFIX:String = 'Score: ';
+    var PSYCH_MISSES_PREFIX:String = 'Misses: ';
+    var PSYCH_RATING_PREFIX:String = 'Rating: ';
+
+    var playState:PlayState = null;
+    var scoreTxt:FlxBitmapText = null;
+    var playScoreText:FlxBitmapText = null;
+    var isEnabled:Bool = false;
+    var customScoreTextCreated:Bool = false;
+    var lastScoreTextWidth:Float = 0;
+    var retryCounter:Int = 0; // Add this to prevent infinite loops
+
+    public function new():Void
+    {
+        super("CrushersUIScoreTextModule", 1, {
+            state: PlayState
+        });
+    }
+
+    public override function onStateChangeEnd(event:ScriptEvent):Void
+    {
+        super.onStateChangeEnd(event);
+
+        playState = PlayState.instance;
+        
+        // Wait for playState to be fully initialized
+        if (playState == null) return;
+	if (Preferences.hideHUD) return;
+        
+        playScoreText = playState.scoreText;
+        isEnabled = Preferences.advancedScoreText;
+        
+        // Reset creation flag when entering a new state
+        customScoreTextCreated = false;
+        retryCounter = 0;
+        
+        if (isEnabled) {
+            // Add a small delay to ensure HUD elements are ready
+            new FlxTimer().start(0.05, function(_) {
+                if (playState != null && !playState.isDead && playState.scoreText != null) {
+                    createCustomScoreText();
+                }
+            });
+        } else {
+            restoreOriginalScoreText();
+        }
+    }
+
+    function createCustomScoreText():Void
+    {
+	if (Preferences.hideHUD) return;
+        if (customScoreTextCreated) return;
+        if (playState == null || playState.scoreText == null) return;
+        
+        // Get the current scoreText reference again to ensure it's valid
+        playScoreText = playState.scoreText;
+        if (playScoreText == null) return;
+        
+        try {
+            scoreTxt = new FlxBitmapText(0, playScoreText.y, '', playScoreText.font);
+            scoreTxt.borderColor = playScoreText.borderColor;
+            scoreTxt.borderStyle = playScoreText.borderStyle;
+            scoreTxt.borderSize = playScoreText.borderSize;
+            scoreTxt.borderQuality = playScoreText.borderQuality;
+            scoreTxt.textColor = playScoreText.textColor;
+            scoreTxt.letterSpacing = playScoreText.letterSpacing;
+            scoreTxt.wordWrap = playScoreText.wordWrap;
+            scoreTxt.scrollFactor.set(playScoreText.scrollFactor.x, playScoreText.scrollFactor.y);
+            scoreTxt.zIndex = returnScoreTxtZIndex();
+            scoreTxt.cameras = [playState.camHUD];
+            scoreTxt.visible = true;
+            
+            playState.add(scoreTxt);
+            
+            // Immediately hide the original
+            playScoreText.visible = false;
+            playScoreText.active = false;
+            
+            customScoreTextCreated = true;
+        } catch (e:Dynamic) {
+            trace('Error creating custom score text: ' + e);
+        }
+    }
+    
+    function restoreOriginalScoreText():Void
+    {
+if (Preferences.hideHUD)
+{
+playScoreText.visible = false;
+playScoreText.active = false;
+scoreTxt.visible = false;
+scoreTxt.active = false;
+}
+        if (playScoreText != null)
+        {
+            playScoreText.visible = true;
+            playScoreText.active = true;
+        }
+        
+        if (scoreTxt != null)
+        {
+            scoreTxt.visible = false;
+            scoreTxt.active = false;
+        }
+        
+        customScoreTextCreated = false;
+    }
+
+    public override function onUpdate(event:ScriptEvent):Void
+    {
+        super.onUpdate(event);
+        
+        // Don't update if playState is null or in cutscene
+        if (playState == null) return;
+        
+        var currentlyEnabled = Preferences.advancedScoreText;
+        
+        if (currentlyEnabled != isEnabled) {
+            isEnabled = currentlyEnabled;
+            if (isEnabled) {
+                // Retry creation if needed
+                if (!customScoreTextCreated && playState.scoreText != null) {
+                    createCustomScoreText();
+                }
+            } else {
+                restoreOriginalScoreText();
+            }
+        }
+        
+        // Only update if enabled, custom text exists, and we're not in a cutscene transition
+        if (isEnabled && playScoreText != null && scoreTxt != null && customScoreTextCreated)
+        {
+            // Make sure original is hidden
+            if (playScoreText.visible) {
+                playScoreText.visible = false;
+                playScoreText.active = false;
+            }
+            
+            // Update the text
+            scoreTxt.text = getPsychStyleScoreText();
+            
+            // Update position
+            if (scoreTxt.width != lastScoreTextWidth) {
+                scoreTxt.x = (FlxG.width - scoreTxt.width) / 2;
+                lastScoreTextWidth = scoreTxt.width;
+            }
+            
+            scoreTxt.visible = true;
+            scoreTxt.active = true;
+        }
+    }
+    
+    // Add this method to handle cutscene completion
+    public function onCutsceneComplete():Void
+    {
+        if (isEnabled && !customScoreTextCreated && playState != null && playState.scoreText != null) {
+            createCustomScoreText();
+        }
+    }
+    
+    // Rest of your existing methods remain the same...
+    function getPsychStyleScoreText():String
+    {
+        var scorePart:String = PSYCH_SCORE_PREFIX + FlxStringUtil.formatMoney(playState.songScore, false, true);
+        var missesPart:String = PSYCH_MISSES_PREFIX + Highscore.tallies.missed;
+        var ratingPart:String = PSYCH_RATING_PREFIX + getPsychStyleRating();
+        
+        return scorePart + PSYCH_SEPARATOR + missesPart + PSYCH_SEPARATOR + ratingPart + "\n";
+    }
+    
+    function getPsychStyleRating():String
+    {
+        var rankName:String = returnRank();
+        var percent:Float = returnAccuracy();
+        
+        if (totalPlayed != 0) {
+            return rankName + ' (${percent}%) - ${getFCType()}';
+        }
+        
+        return rankName;
+    }
+    
+    function getFCType():String
+    {
+        if (Highscore.tallies.missed == 0) {
+            if (Highscore.tallies.shit == 0 && Highscore.tallies.bad == 0) {
+                return (Highscore.tallies.good == 0) ? "SFC" : "GFC";
+            }
+            return "FC";
+        }
+        else {
+            return (Highscore.tallies.missed < 10) ? "SDCB" : "Clear";
+        }
+    }
+
+    function returnScoreTxtZIndex():Int
+    {
+        if (!TEXT_UNDER_ICONS)
+        {
+            if (playState != null && playState.iconP2 != null)
+                return playState.iconP2.zIndex + 1;
+            else if (playState != null && playState.iconP1 != null)
+                return playState.iconP1.zIndex + 1;
+        }
+
+        return (playScoreText != null ? playScoreText.zIndex : 0) + 1;
+    }
+
+    function returnAccuracy():Float
+    {
+        var totalNotes:Float = noteHitCalculation();
+        if (totalNotes <= 0) return 0;
+        
+        var clearPercentFloat:Float = FlxMath.roundDecimal((Highscore.tallies.sick + Highscore.tallies.good - Highscore.tallies.missed) / totalNotes * 100, 2);
+        if (clearPercentFloat != clearPercentFloat || clearPercentFloat < 0) return 0;
+        return clearPercentFloat;
+    }
+
+    function returnRank():String
+    {
+        var score:String = Scoring.calculateRank(
+        {
+            score: playState.songScore,
+            tallies:
+            {
+                sick: Highscore.tallies.sick,
+                good: Highscore.tallies.good,
+                bad: Highscore.tallies.bad,
+                shit: Highscore.tallies.shit,
+                missed: Highscore.tallies.missed,
+                combo: Highscore.tallies.combo,
+                maxCombo: Highscore.tallies.maxCombo,
+                totalNotesHit: Highscore.tallies.totalNotesHit,
+                totalNotes: noteHitCalculation()
+            }
+        });
+
+        for (i in 0...RATING_TEXTS.length - 1)
+        {
+            if (score == RATING_TEXTS[i][0])
+                return RATING_TEXTS[i][1];
+        }
+
+        return '?';
+    }
+
+    function noteHitCalculation():Float
+    {
+        return (Highscore.tallies.totalNotesHit + Highscore.tallies.missed);
+    }
+    
+    var totalPlayed(get, never):Float;
+    function get_totalPlayed():Float {
+        return noteHitCalculation();
+    }
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="freeplayalt.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="6" y="6" width="238" height="120" frameX="5" frameY="13" frameWidth="238" frameHeight="124"/>
+	<SubTexture name="idle0001" x="244" y="6" width="238" height="122" frameX="5" frameY="15" frameWidth="238" frameHeight="124"/>
+	<SubTexture name="idle0002" x="6" y="128" width="238" height="123" frameX="5" frameY="16" frameWidth="238" frameHeight="124"/>
+	<SubTexture name="idle0003" x="244" y="128" width="238" height="121" frameX="5" frameY="14" frameWidth="238" frameHeight="124"/>
+	<SubTexture name="idle0004" x="6" y="251" width="238" height="122" frameX="5" frameY="15" frameWidth="238" frameHeight="124"/>
+	<SubTexture name="idle0005" x="244" y="251" width="238" height="122" frameX="5" frameY="15" frameWidth="238" frameHeight="124"/>
+	<SubTexture name="idle0006" x="6" y="373" width="238" height="122" frameX="5" frameY="15" frameWidth="238" frameHeight="124"/>
+</TextureAtlas>

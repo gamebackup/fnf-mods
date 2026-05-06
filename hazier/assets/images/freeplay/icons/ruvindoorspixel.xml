@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ruvindoorspixel.png">
+	<SubTexture name="confirm0000" x="1" y="1" width="48" height="36" frameX="0" frameY="0" frameWidth="48" frameHeight="36" />
+	<SubTexture name="confirm0001" x="49" y="1" width="48" height="36" frameX="0" frameY="0" frameWidth="48" frameHeight="36" />
+	<SubTexture name="confirm0002" x="1" y="37" width="48" height="36" frameX="0" frameY="0" frameWidth="48" frameHeight="36" />
+	<SubTexture name="confirm0003" x="49" y="37" width="48" height="36" frameX="0" frameY="0" frameWidth="48" frameHeight="36" />
+	<SubTexture name="idle0000" x="1" y="1" width="48" height="36" frameX="0" frameY="0" frameWidth="48" frameHeight="36" />
+	<SubTexture name="idle-hold0000" x="49" y="37" width="48" height="36" frameX="0" frameY="0" frameWidth="48" frameHeight="36" />
+</TextureAtlas>

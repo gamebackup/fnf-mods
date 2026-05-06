@@ -1,0 +1,140 @@
+import funkin.play.event.SongEvent;
+import funkin.play.PlayState;
+import funkin.modding.module.Module;
+import funkin.effects.FunkTrail;
+
+// this adds a toggleable trail effect
+
+class CharacterSingTrails extends SongEvent { // so it shows up as an event, this doesnt really do much
+    function new() {
+        super('CharacterSingTrails');
+    }
+
+    var DEFAULT_TARGET:String = 'bf';
+    var DEFAULT_ACTIVE:Bool = true;
+
+    function getTitle() {
+        return 'Character Trail Event';
+    }
+
+    override function handleEvent(ev) {}
+
+    function getEventSchema() {
+        return [
+            {
+                name: 'target',
+                title: 'Target',
+                type: 'enum',
+                defaultValue: DEFAULT_TARGET,
+                keys: [
+                    'Boyfriend' => 'bf',
+                    'Girlfriend' => 'gf',
+                    'Dad' => 'dad'
+                ]
+            },
+            {
+                name: 'isActive',
+                title: 'Active?',
+                defaultValue: DEFAULT_ACTIVE,
+                type: 'bool'
+            }
+        ];
+    }
+}
+
+// V-Slice doesn't currently have events such as note hit, on create, etc
+// since were not using the dev build, we need to do this work around
+
+class CharacterSingTrailsModule extends Module {
+    function new() {
+        super('CharacterSingTrailsModule', 0, {state: PlayState});
+    }
+
+    var DEFAULT_TARGET:String = 'bf';
+    var DEFAULT_ACTIVE:Bool = true;
+    
+    var shouldBeActive:Bool = false;
+    var bfTrail:FunkTrail;
+    var gfTrail:FunkTrail;
+    var dadTrail:FunkTrail;
+
+    function onSongLoaded(ev) { // this would be the "onCreate" function in SongEvent (assuming it only runs when the event is placed)
+        shouldBeActive = false;
+        bfTrail?.destroy();
+        gfTrail?.destroy();
+        dadTrail?.destroy();
+        if (PlayState.instance.currentStage == null) return; // the current stage doesn't exist (either on minimal mode or smth went wrong on the stage)
+
+        for (event in ev.events) {
+            if (event.eventKind == 'CharacterSingTrails') { // check if there's the trail event
+                shouldBeActive = true;
+                break;
+            }
+        }
+
+        if (!shouldBeActive) return;
+
+        trace('[HAZIER RIVER] Found Character Trail Event, creating trails.');
+        var curStage = PlayState.instance.currentStage;
+        // create trails
+        if (curStage.getBoyfriend() != null) {
+            var char = curStage.getBoyfriend();
+            if (char.trailChar != null)
+                char = curStage.getBoyfriend().trailChar;
+
+            bfTrail = new FunkTrail(char, null, 8, 4, 0.35, 0.25);
+            bfTrail.zIndex = curStage.getBoyfriend().zIndex - 1; bfTrail.alpha = 0;
+            curStage.add(bfTrail); bfTrail.color = 0x66FFFF;
+        }
+
+        if (curStage.getGirlfriend() != null) {
+            var char = curStage.getGirlfriend();
+            if (char.trailChar != null)
+                char = curStage.getGirlfriend().trailChar;
+            
+            gfTrail = new FunkTrail(char, null, 8, 4, 0.35, 0.25);
+            gfTrail.zIndex = curStage.getGirlfriend().zIndex - 1; gfTrail.alpha = 0;
+            curStage.add(gfTrail);
+        }
+
+        if (curStage.getDad() != null) {
+            var char = curStage.getDad();
+            if (char.trailChar != null)
+                char = curStage.getDad().trailChar;
+            
+            dadTrail = new FunkTrail(char, null, 8, 4, 0.35, 0.25);
+            dadTrail.zIndex = curStage.getDad().zIndex - 1; dadTrail.alpha = 0;
+            curStage.add(dadTrail);
+        }
+        
+        curStage.refresh();
+    }
+
+    function onSongEvent(ev) {
+        if (!shouldBeActive) return;
+        if (ev.eventData.eventKind == 'CharacterSingTrails') {
+            var target = ev.eventData.getString('target') ?? DEFAULT_TARGET;
+            var isActive = ev.eventData.getBool('isActive');
+            trace('[HAZIER RIVER] Set ${target}Trail to ${(isActive ? 'visible' : 'invisible')}');
+
+            switch (target) {
+                case 'bf':
+                    bfTrail.alpha = (isActive ? 0.35 : 0);
+                case 'gf':
+                    gfTrail.alpha = (isActive ? 0.35 : 0);
+                case 'dad':
+                    dadTrail.alpha = (isActive ? 0.35 : 0);
+            }
+        }
+    }
+
+    // function onNoteHit(ev) {
+    //     if (!shouldBeActive) return;
+
+    //     if (ev.note.noteData.getMustHitNote()) {
+    //         bfTrail?.color = Constants.COLOR_NOTES[ev.note.noteData.getDirection()];
+    //     }
+    // }
+
+    
+}

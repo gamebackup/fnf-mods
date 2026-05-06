@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "name": "Pico",
+  "assetPath": "picodialouge",
+  "flipX": false,
+  "isPixel": false,
+  "scale": 0.4,
+  "offsets": [650, 180],
+  "animations": [
+    {
+      "name": "talk",
+      "prefix": "neutral",
+      "offsets": [0, 0],
+      "frameRate": 24
+    },
+    {
+      "name": "hype",
+      "prefix": "hype",
+      "offsets": [0, 0],
+      "frameRate": 24
+    },
+    {
+      "name": "smug",
+      "prefix": "smug",
+      "offsets": [0, 0],
+      "frameRate": 24
+    },
+    {
+      "name": "questioning",
+      "prefix": "questioning",
+      "offsets": [0, 0],
+      "frameRate": 24
+    },
+    {
+      "name": "cocky",
+      "prefix": "cocky",
+      "offsets": [0, 0],
+      "frameRate": 24
+    },
+    {
+      "name": "showoff",
+      "prefix": "showoff",
+      "offsets": [0, 0],
+      "frameRate": 24
+    },
+    {
+      "name": "standstill",
+      "prefix": "standstill",
+      "offsets": [0, 0],
+      "frameRate": 24
+    },
+    {
+      "name": "uneasy",
+      "prefix": "uneasy",
+      "offsets": [0, 0],
+      "frameRate": 24
+    },
+    {
+      "name": "huff",
+      "prefix": "huff",
+      "offsets": [0, 0],
+      "frameRate": 24
+    },
+    {
+      "name": "high",
+      "prefix": "high",
+      "offsets": [0, 0],
+      "frameRate": 24
+    }
+  ]
+}

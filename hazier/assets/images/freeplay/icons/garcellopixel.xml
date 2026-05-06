@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="garcellopixel.png" width="144" height="38">
+  <SubTexture name="idle0001" x="0" y="0"  width="41" height="38"/>
+
+  <SubTexture name="confirm0001" x="0" y="0"  width="41" height="38"/>
+  <SubTexture name="confirm0002" x="41" y="0"  width="41" height="38"/>
+  <SubTexture name="confirm0003" x="82" y="0"  width="41" height="38"/>
+  <SubTexture name="confirm0004" x="123" y="0"  width="41" height="38"/>
+
+  <SubTexture name="confirm-hold0001" x="123" y="0"  width="41" height="38"/>
+</TextureAtlas>

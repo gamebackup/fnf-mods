@@ -1,0 +1,26 @@
+import funkin.modding.module.Module;
+import funkin.play.PlayState;
+import funkin.Preferences;
+
+class OpponentNotesModule extends Module
+{
+    public function new()
+    {
+        super("OpponentNotesModule", 0);
+    }
+
+    override function onStateChangeEnd(event:ScriptEvent):Void
+    {
+        super.onStateChangeEnd(event);
+
+       
+        if (PlayState.instance == null) return;
+
+        if (!Preferences.opponentNotes)
+        {
+            PlayState.instance.opponentStrumline.visible = false;
+            trace("Opponent notes hidden!!");
+        }
+        
+    }
+}

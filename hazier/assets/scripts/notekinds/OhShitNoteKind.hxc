@@ -1,0 +1,11 @@
+package hayzer.notekinds.ohshit;
+
+import funkin.play.notes.notekind.NoteKind;
+
+class OhShitNoteKind extends NoteKind
+{
+  public function new()
+  {
+    super('ohshit', 'Oh Shit (Nerves Pico)');
+  }
+}

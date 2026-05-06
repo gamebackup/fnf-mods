@@ -1,0 +1,11 @@
+import funkin.modding.module.Module;
+import funkin.util.Constants;
+
+class CenteredField extends Module
+{
+    function new(){
+        super("CenteredStrumlines");
+        Constants.STRUMLINE_X_OFFSET = 96; // OK SO ITS JUST 1 LINE LOL
+    }
+
+}

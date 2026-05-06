@@ -1,0 +1,109 @@
+import funkin.modding.module.Module;
+import funkin.ui.mainmenu.MainMenuState;
+import funkin.ui.credits.CreditsDataHandler;
+
+/*
+  patches credits and adds the hazier watermark on MainMenuState
+ */
+class hazierwatermark extends Module
+{
+  var creditsData:Array<CreditsData> = [
+    {
+      header: 'HAZIER RIVER',
+      body: [
+        {line: 'A fanmade remake of HAZY RIVER.'}, {line: 'By the fans, for the fans'}]
+    },
+    {
+      header: 'Direction, Art and Music Lead',
+      body: [
+        {line: 'DigitLuck'}]
+    },
+    {
+      header: 'Artists',
+      body: [
+        {line: 'DigitLuck'}, {line: 'PlantGamer09'}, {line: 'artalogue.'}]
+    },
+    {
+      header: 'Pixel Art',
+      body: [
+        {line: 'CoolJ4334'}]
+    },
+    {
+      header: 'Music Production',
+      body: [
+        {line: 'Cyber Tryzoid'},
+        {line: 'PlantGamer09'},
+        {line: 'EEssential'},
+        {line: 'LexyDoesStuff'},
+        {line: 'SojaWooz'},
+        {line: 'Lunarznova'}
+      ]
+    },
+    {
+      header: 'Voice Actors',
+      body: [
+        {line: 'amothfurry'}, {line: 'SojaWooz'}]
+    },
+    {
+      header: 'Programming',
+      body: [
+        {line: 'Sammy The Goog'},
+        {line: 'Kludge54n5'},
+        {line: 'Arthren'},
+        {line: 'c1tcher'},
+        {line: 'TechnikTil'},
+        {line: 'Idk\'s FNF Stuff'}
+      ]
+    },
+    {
+      header: 'Charting',
+      body: [
+        {line: 'Arthren'},
+        {line: 'Idk\'s FNF Stuff'},
+        {line: 'DigitLuck'},
+        {line: 'EEssential'},
+        {line: 'Sammy The Goog'},
+        {line: 'HazedPhantom'}
+      ]
+    },
+    {
+      header: 'Playtesting',
+      body: [
+        {line: 'PTLC118'},
+        {line: 'SPG64'},
+        {line: 'Arthren'},
+        {line: 'amothfurry'},
+        {line: 'EEssential'},
+        {line: 'c1tcher'},
+        {line: 'peakcinnamon'}
+      ]
+    },
+    {
+      header: 'Trailer Editor',
+      body: [
+        {line: 'MarkedAman'}]
+    },
+    {
+      header: 'Special Thanks',
+      body: [
+        {line: 'atsuover'}, {line: 'Guyy!!'}, {line: 'llwoodstockll'}]
+    }
+  ];
+
+  public function new()
+  {
+    super('hazierwatermark', 0, {state: MainMenuState});
+    FlxG.signals.postGameStart.addOnce(function() {
+      creditsData.reverse();
+      for (i in creditsData)
+      {
+        CreditsDataHandler.CREDITS_DATA.entries.unshift(i);
+      }
+    });
+  }
+
+  function onStateChangeEnd()
+  {
+
+  }
+}

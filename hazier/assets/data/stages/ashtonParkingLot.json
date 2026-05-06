@@ -1,0 +1,51 @@
+{
+  "version": "1.0.2",
+  "name": "Ashton Parking Lot",
+  "props": [
+    {
+      "assetPath": "AshtonParkingLot/roadnfence",
+      "name": "roadandfence",
+      "position": [-748, -414],
+      "scale": 1.5,
+      "scroll": [1, 1],
+      "zIndex": 4
+    },
+    {
+      "assetPath": "AshtonParkingLot/lightinglamps",
+      "blend": "add",
+      "name": "lightinglamps",
+      "position": [-744, -430],
+      "scale": 1.5,
+      "scroll": [1, 1],
+      "zIndex": 6
+    },
+    {
+      "assetPath": "AshtonParkingLot/vingettepart2",
+      "blend": "hardlight",
+      "name": "vingette",
+      "position": [-1287, -423],
+      "scale": [2, 1.5],
+      "scroll": [0.75, 1],
+      "zIndex": 350
+    }
+  ],
+  "characters": {
+    "bf": {
+      "cameraOffsets": [-100, -100],
+      "position": [1200, 785],
+      "zIndex": 300
+    },
+    "dad": {
+      "cameraOffsets": [190, -10],
+      "position": [180, 785],
+      "zIndex": 200
+    },
+    "gf": {
+      "cameraOffsets": [0, 0],
+      "position": [700, 687],
+      "zIndex": 100
+    }
+  },
+  "cameraZoom": 0.7,
+  "directory": "shared"
+}

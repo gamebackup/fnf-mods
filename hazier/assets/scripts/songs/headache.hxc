@@ -1,0 +1,164 @@
+// import funkin.play.cutscene.VideoCutscene;
+import flixel.text.FlxText;
+import funkin.play.cutscene.CutsceneType;
+import funkin.play.PlayStatePlaylist;
+import funkin.graphics.FunkinSprite;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import funkin.play.PlayState;
+import funkin.play.song.Song;
+import flixel.util.FlxTimer;
+import funkin.save.Save;
+
+class HeadacheSong extends Song
+{
+  public var playedCutscene:Bool = false;
+  public var playedConversation:Bool = false;
+
+  var backgroundSprite:FunkinSprite;
+  var backgroundSpriteTween:FlxTween;
+
+  public function new()
+  {
+    super('headache');
+  }
+
+  override public function onCreate(event:ScriptEvent)
+  {
+    playedCutscene = false;
+    playedConversation = false;
+    backgroundSprite = null;
+
+    super.onCreate(event);
+  }
+
+  override public function isSongNew(currentDifficulty:String, currentVariation:String):Bool
+  {
+    if (currentVariation == 'default')
+    {
+      return !Save.instance.hasBeatenSong(this.id, null, this.variation);
+    }
+
+    return super.isSongNew(currentDifficulty, currentVariation);
+  }
+
+  override public function onCountdownStart(event:CountdownScriptEvent):Void
+  {
+    super.onCountdownStart(event);
+
+    if (backgroundSprite == null)
+    {
+      backgroundSprite = new FunkinSprite();
+      backgroundSprite.makeSolidColor(FlxG.width * 2, FlxG.height * 2, 0xFF000000);
+      backgroundSprite.screenCenter();
+      backgroundSprite.cameras = [PlayState.instance?.camHUD];
+      backgroundSprite.zIndex = 10000;
+      PlayState.instance?.add(backgroundSprite);
+    }
+
+    // Don't play any cutscenes in Freeplay.
+    if (!PlayStatePlaylist.isStoryMode) return;
+
+    if (!playedCutscene)
+    {
+      event.cancel();
+      playedCutscene = true;
+
+      playTextIntro();
+    }
+    // else if (!playedConversation)
+    // {
+    //   event.cancel();
+    //   playedConversation = true;
+
+    //   startConversation();
+    // }
+  }
+
+  function playTextIntro()
+  {
+    PlayState.instance.disableKeys = true;
+    var black = new FunkinSprite(-20, -20).makeSolidColor(FlxG.width * 1.5, FlxG.height * 1.5, 0xFF000000);
+    black.cameras = [PlayState.instance.camCutscene];
+    black.zIndex = 1000000;
+    PlayState.instance.add(black);
+
+    var cutsceneText = new FlxText(0, 0, 850);
+    cutsceneText.text = 'Boyfriend and Girlfriend were\non a fancy date...\nthen saw a strange glow\ncoming from an alleyway...';
+    cutsceneText.setFormat(Paths.font('Quantico-Bold.ttf'), 48);
+    cutsceneText.alignment = 'center';
+    cutsceneText.screenCenter();
+    cutsceneText.cameras = [PlayState.instance.camCutscene];
+    cutsceneText.alpha = 0.001;
+    cutsceneText.zIndex = 1000001;
+    PlayState.instance.add(cutsceneText);
+
+    FlxTween.tween(cutsceneText, {alpha: 1}, 1);
+    FlxTween.tween(black, {alpha: 0}, 1,
+      {
+        startDelay: 9,
+        onComplete: function() {
+          startConversation();
+          PlayState.instance.disableKeys = false;
+        }
+      });
+    FlxTween.tween(cutsceneText, {alpha: 0}, 1,
+      {
+        startDelay: 7,
+      });
+  }
+
+  public function startCutscene():Void
+  {
+    // TODO: Finish the cutscene Lucky!
+    // VideoCutscene.play(Paths.videos('cutsceneplaceholder.mov'), CutsceneType.STARTING);
+
+    PlayState.instance.startCountdown();
+  }
+
+  public function startConversation():Void
+  {
+    PlayState.instance?.startConversation('headache');
+  }
+
+  override public function onSongStart(event:ScriptEvent):Void
+  {
+    super.onSongStart(event);
+
+    var durationMs:Float = PlayState.instance?.conductorInUse?.getBeatTimeInMs(16) ?? 0;
+    backgroundSpriteTween = FlxTween.tween(backgroundSprite, {alpha: 0}, durationMs / 1000,
+      {
+        onComplete: (_) -> {
+          backgroundSpriteTween = null;
+        }
+      });
+  }
+
+  override public function onSongRetry(event:ScriptEvent):Void
+  {
+    super.onSongRetry(event);
+
+    backgroundSpriteTween?.cancel();
+    backgroundSpriteTween = FlxTween.tween(backgroundSprite, {alpha: 1}, 0.5,
+      {
+        ease: FlxEase.expoOut,
+        onComplete: (_) -> {
+          backgroundSpriteTween = null;
+        }
+      });
+  }
+
+  override public function onPause(event:ScriptEvent):Void
+  {
+    super.onPause(event);
+
+    backgroundSpriteTween?.active = false;
+  }
+
+  override public function onResume(event:ScriptEvent):Void
+  {
+    super.onResume(event);
+
+    backgroundSpriteTween?.active = true;
+  }
+}

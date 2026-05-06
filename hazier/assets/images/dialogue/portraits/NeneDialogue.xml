@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NeneDialogue.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Nene Dialogue Default0000" x="0" y="0" width="436" height="471"/>
+	<SubTexture name="Nene Dialogue Freaky0000" x="436" y="0" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0001" x="436" y="0" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0002" x="785" y="0" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0003" x="785" y="0" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0004" x="1134" y="0" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0005" x="1483" y="0" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0006" x="0" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0007" x="0" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0008" x="349" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0009" x="698" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0010" x="698" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0011" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0012" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0013" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0014" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0015" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0016" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0017" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0018" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0019" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0020" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0021" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0022" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0023" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0024" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0025" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0026" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0027" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0028" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0029" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0030" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0031" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0032" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0033" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0034" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0035" x="1047" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0036" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0037" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0038" x="1396" y="512" width="349" height="512"/>
+	<SubTexture name="Nene Dialogue Freaky0039" x="1396" y="512" width="349" height="512"/>
+</TextureAtlas>

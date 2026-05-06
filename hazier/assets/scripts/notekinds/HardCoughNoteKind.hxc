@@ -1,0 +1,25 @@
+package hayzer.notekinds.cough;
+
+import funkin.play.notes.notekind.NoteKind;
+import funkin.play.PlayState;
+
+class HardCoughNoteKind extends NoteKind
+{
+  public function new()
+  {
+    super('hardCough', 'Hard Cough (Nerves)');
+  }
+
+  override public function onNoteHit(event:HitNoteScriptEvent):Void
+  {
+    super.onNoteHit(event);
+    if (event.eventCanceled || event.note.noteData.getMustHitNote()) return;
+
+    var dad:BaseCharacter = PlayState.instance?.currentStage?.getDad();
+    dad?.playAnimation('hardCough', true);
+
+    event.note.hasBeenHit = true;
+    event.note.handledMiss = true;
+    event.cancel();
+  }
+}

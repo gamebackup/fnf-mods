@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="downloadmod.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="downloadmod selected0000" x="0" y="137" width="801" height="131" frameX="2" frameY="-17" frameWidth="800" frameHeight="161"/>
+	<SubTexture name="downloadmod selected0001" x="0" y="0" width="803" height="137" frameX="2" frameY="-14" frameWidth="800" frameHeight="161"/>
+	<SubTexture name="downloadmod idle0000" x="0" y="384" width="671" height="111" frameX="2" frameY="-14" frameWidth="670" frameHeight="135"/>
+	<SubTexture name="downloadmod idle0001" x="0" y="384" width="671" height="111" frameX="2" frameY="-14" frameWidth="670" frameHeight="135"/>
+	<SubTexture name="downloadmod idle0002" x="0" y="268" width="673" height="116" frameX="2" frameY="-11" frameWidth="670" frameHeight="135"/>
+	<SubTexture name="downloadmod idle0003" x="0" y="268" width="673" height="116" frameX="2" frameY="-11" frameWidth="670" frameHeight="135"/>
+</TextureAtlas>
