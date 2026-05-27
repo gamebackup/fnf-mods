@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="pizza.png">
-	<!-- Created with Adobe Animate version 24.0.0.305 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="pizza0000" x="5" y="5" width="178" height="153"/>
-</TextureAtlas>

@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="johndoe.png">
-<SubTexture name="johndoe walk0000" x="0" y="0" width="441" height="540" frameX="-188" frameY="-67" frameWidth="900" frameHeight="700" />
-<SubTexture name="johndoe walk0001" x="441" y="0" width="329" height="534" frameX="-256" frameY="-76" frameWidth="900" frameHeight="700" />
-<SubTexture name="johndoe walk0002" x="770" y="0" width="398" height="505" frameX="-227" frameY="-84" frameWidth="900" frameHeight="700" />
-<SubTexture name="johndoe walk0003" x="441" y="0" width="329" height="534" frameX="-256" frameY="-76" frameWidth="900" frameHeight="700" />
-</TextureAtlas>

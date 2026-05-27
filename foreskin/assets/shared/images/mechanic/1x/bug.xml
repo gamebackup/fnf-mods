@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="bug.png">
-<SubTexture name="bug0000" x="0" y="1659" width="2861" height="1474" frameX="-444" frameY="-432" frameWidth="3816" frameHeight="1906" />
-<SubTexture name="bug0001" x="0" y="0" width="2981" height="1659" frameX="-212" frameY="-247" frameWidth="3816" frameHeight="1906" />
-<SubTexture name="bug0002" x="2981" y="0" width="2882" height="1504" frameX="-316" frameY="-402" frameWidth="3816" frameHeight="1906" />
-</TextureAtlas>
