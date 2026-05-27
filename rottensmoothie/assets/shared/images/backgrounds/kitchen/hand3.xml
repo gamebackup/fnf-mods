@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="hand3.png">
-<SubTexture name="hand3 idle0000" x="869" y="0" width="292" height="438" frameX="-89" frameY="-99" frameWidth="465" frameHeight="537" />
-<SubTexture name="hand3 idle0001" x="285" y="0" width="286" height="494" frameX="-133" frameY="-43" frameWidth="465" frameHeight="537" />
-<SubTexture name="hand3 idle0002" x="0" y="0" width="285" height="509" frameX="-119" frameY="-28" frameWidth="465" frameHeight="537" />
-<SubTexture name="hand3 idle0003" x="571" y="0" width="298" height="466" frameX="-69" frameY="-71" frameWidth="465" frameHeight="537" />
-<SubTexture name="hand3 idle0004" x="0" y="509" width="316" height="411" frameX="-47" frameY="-126" frameWidth="465" frameHeight="537" />
-<SubTexture name="hand3 idle0005" x="316" y="509" width="296" height="403" frameX="-56" frameY="-134" frameWidth="465" frameHeight="537" />
-</TextureAtlas>

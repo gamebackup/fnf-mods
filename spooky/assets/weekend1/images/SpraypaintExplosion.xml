@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="SpraypaintExplosion.png">
-<SubTexture name="Explosion 1 movie0000" x="1060" y="589" width="140" height="142" frameX="-193" frameY="-170" frameWidth="593" frameHeight="616" />
-<SubTexture name="Explosion 1 movie0001" x="582" y="589" width="478" height="461" frameX="-51" frameY="-61" frameWidth="593" frameHeight="616" />
-<SubTexture name="Explosion 1 movie0002" x="580" y="0" width="449" height="545" frameX="-63" frameY="-47" frameWidth="593" frameHeight="616" />
-<SubTexture name="Explosion 1 movie0003" x="0" y="0" width="580" height="589" frameX="0" frameY="-27" frameWidth="593" frameHeight="616" />
-<SubTexture name="Explosion 1 movie0004" x="0" y="589" width="582" height="465" frameX="-11" frameY="-24" frameWidth="593" frameHeight="616" />
-<SubTexture name="Explosion 1 movie0005" x="1029" y="0" width="482" height="467" frameX="-7" frameY="-10" frameWidth="593" frameHeight="616" />
-</TextureAtlas>

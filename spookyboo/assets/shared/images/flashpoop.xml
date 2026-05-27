@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="flashpoop.png">
-	<!-- Created with Adobe Animate version 23.0.2.103 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="idlelol0000" x="84" y="84" width="1372" height="777" frameX="0" frameY="0" frameWidth="1382" frameHeight="777"/>
-	<SubTexture name="idlelol0001" x="1492" y="84" width="1381" height="740" frameX="-1" frameY="-17" frameWidth="1382" frameHeight="777"/>
-	<SubTexture name="idlelol0002" x="84" y="897" width="1287" height="740" frameX="-46" frameY="-17" frameWidth="1382" frameHeight="777"/>
-</TextureAtlas>

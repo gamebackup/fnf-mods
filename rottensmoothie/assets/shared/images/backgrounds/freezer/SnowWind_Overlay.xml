@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="SnowWind_Overlay.png">
-<SubTexture name="idle0000" x="0" y="0" width="1930" height="1090" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
-<SubTexture name="idle0001" x="1930" y="0" width="1930" height="1090" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
-<SubTexture name="idle0002" x="0" y="1090" width="1930" height="1090" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
-<SubTexture name="idle0003" x="1930" y="1090" width="1930" height="1090" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
-<SubTexture name="idle0004" x="0" y="2180" width="1930" height="1090" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
-</TextureAtlas>

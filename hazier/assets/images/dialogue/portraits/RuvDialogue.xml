@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="RuvDialogue.png">
-	<!-- Created with Adobe Animate version 22.0.8.217 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Ruv Dialogue Default0000" x="0" y="0" width="475" height="444" frameX="-1" frameY="0" frameWidth="476" frameHeight="444"/>
-	<SubTexture name="Ruv Dialogue Default0001" x="475" y="0" width="475" height="444" frameX="-1" frameY="0" frameWidth="476" frameHeight="444"/>
-	<SubTexture name="Ruv Dialogue Default0002" x="0" y="444" width="475" height="444" frameX="-1" frameY="0" frameWidth="476" frameHeight="444"/>
-	<SubTexture name="Ruv Dialogue Default0003" x="475" y="444" width="476" height="444"/>
-</TextureAtlas>

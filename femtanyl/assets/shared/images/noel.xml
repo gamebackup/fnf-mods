@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="noel.png">
-<SubTexture name="noel run0000" x="0" y="0" width="24" height="43" frameX="-1" frameY="0" frameWidth="25" frameHeight="43" />
-<SubTexture name="noel run0001" x="24" y="0" width="25" height="42" frameX="0" frameY="-1" frameWidth="25" frameHeight="43" />
-</TextureAtlas>
